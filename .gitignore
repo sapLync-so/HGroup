@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# isolated scroll previews (do not ship)
+/_preview/
+
+__pycache__/
+*.pyc
