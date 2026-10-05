@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node --import ./tests/register.mjs --test tests/*.test.ts",
+    "typecheck": "next typegen && tsc --noEmit"
   },
   "dependencies": {
     "@photo-sphere-viewer/core": "^5.15.1",
