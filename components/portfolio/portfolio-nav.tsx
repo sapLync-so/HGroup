@@ -5,7 +5,6 @@ import Image from "next/image"
 
 const links = [
   { label: "Properties", href: "#properties" },
-  { label: "Staging", href: "#staged" },
 ]
 
 export function PortfolioNav() {

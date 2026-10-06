@@ -2,7 +2,6 @@ import Image from "next/image"
 
 const links = [
   { label: "Properties", href: "#properties" },
-  { label: "Staging", href: "#staged" },
   { label: "Request a Tour", href: "#book" },
 ]
 

@@ -91,6 +91,11 @@ export function PropertyDetailDialog({
                 className="object-cover object-center"
               />
             )}
+            {photo?.staged && (
+              <span className="absolute left-4 top-4 rounded-full bg-[var(--hg-black)]/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--hg-gold)] backdrop-blur-sm">
+                {photo.caption}
+              </span>
+            )}
             <button
               type="button"
               onClick={onClose}

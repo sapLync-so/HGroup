@@ -1,4 +1,4 @@
-import { galleryPhotos, stagedPhotos, turns, type GalleryPhoto } from "./gallery"
+import { heroPhotos, stagedPhotos, turns, type GalleryPhoto } from "./gallery"
 
 export type PhotoRoom = { id: string; title: string; detail: string; frames: GalleryPhoto[] }
 export type Property = {
@@ -38,6 +38,12 @@ const exteriorPhotos: GalleryPhoto[] = [
   },
 ]
 
+const stagedAsGallery: GalleryPhoto[] = [
+  { ...stagedPhotos[0], caption: "Living Room — Virtually Staged" },
+  { ...stagedPhotos[1], caption: "Bedroom — Virtually Staged" },
+  { ...stagedPhotos[2], caption: "Kitchen — Virtually Staged" },
+]
+
 export const properties: Property[] = [{
   id: "property-01",
   name: "The Brick Residence",
@@ -46,11 +52,19 @@ export const properties: Property[] = [{
   availability: "unknown",
   featured: true,
   heroImage: exteriorPhotos[0],
-  gallery: [...exteriorPhotos, ...galleryPhotos],
+  gallery: [
+    exteriorPhotos[0],
+    heroPhotos[3],
+    heroPhotos[4],
+    heroPhotos[8],
+    heroPhotos[9],
+    heroPhotos[10],
+    ...stagedAsGallery,
+  ],
   highlights: ["A distinctive yellow entry", "White kitchen cabinetry", "Wood-look flooring"],
   features: ["Brick exterior", "Gray interiors", "Marble-pattern bathroom tile", "Laundry room shown in gallery"],
   virtualTour: { kind: "photo-sequence", rooms: turns },
-  stagedGallery: stagedPhotos,
+  stagedGallery: [],
 }]
 
 export function propertyFacts(property: Property): { label: string; value: string }[] {

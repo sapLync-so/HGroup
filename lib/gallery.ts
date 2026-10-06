@@ -4,6 +4,7 @@ export type GalleryPhoto = {
   caption: string
   width: number
   height: number
+  staged?: boolean
 }
 
 function photo(
@@ -12,8 +13,9 @@ function photo(
   caption: string,
   width: number,
   height: number,
+  staged = false,
 ): GalleryPhoto {
-  return { src, alt, caption, width, height }
+  return { src, alt, caption, width, height, staged }
 }
 
 function series(
@@ -188,6 +190,7 @@ export const stagedPhotos: GalleryPhoto[] = [
     "Living room",
     1280,
     720,
+    true,
   ),
   photo(
     "/media/staged/bedroom.jpg",
@@ -195,6 +198,7 @@ export const stagedPhotos: GalleryPhoto[] = [
     "Bedroom",
     1280,
     720,
+    true,
   ),
   photo(
     "/media/staged/kitchen.jpg",
@@ -202,6 +206,7 @@ export const stagedPhotos: GalleryPhoto[] = [
     "Kitchen",
     1280,
     720,
+    true,
   ),
 ]
 
