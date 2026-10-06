@@ -1,6 +1,5 @@
 const links = [
   { label: "Properties", href: "#properties" },
-  { label: "Walk the rooms", href: "#tour" },
   { label: "Staging", href: "#staged" },
   { label: "Request a tour", href: "#book" },
 ]

@@ -1,4 +1,4 @@
-import { galleryPhotos, heroPhotos, stagedPhotos, turns, type GalleryPhoto } from "./gallery"
+import { galleryPhotos, stagedPhotos, turns, type GalleryPhoto } from "./gallery"
 
 export type PhotoRoom = { id: string; title: string; detail: string; frames: GalleryPhoto[] }
 export type Property = {
@@ -21,6 +21,23 @@ export type Property = {
   featured?: boolean
 }
 
+const exteriorPhotos: GalleryPhoto[] = [
+  {
+    src: "/media/hero/refined-urban-rowhouse-facade-105.png",
+    alt: "Daylight view of the brick rowhouse facade marked 105, with white window trim and entrance railings.",
+    caption: "Facade in daylight",
+    width: 1086,
+    height: 1448,
+  },
+  {
+    src: "/media/hero/urban-rowhouse-entrance-at-105.png",
+    alt: "Front steps and white railings leading to the gray entrance door marked 105 in the brick rowhouse.",
+    caption: "Front entrance",
+    width: 1086,
+    height: 1448,
+  },
+]
+
 export const properties: Property[] = [{
   id: "property-01",
   name: "The Brick Residence",
@@ -28,8 +45,8 @@ export const properties: Property[] = [{
   inquiryReference: "HGR-01",
   availability: "unknown",
   featured: true,
-  heroImage: heroPhotos[0],
-  gallery: galleryPhotos,
+  heroImage: exteriorPhotos[0],
+  gallery: [...exteriorPhotos, ...galleryPhotos],
   highlights: ["A distinctive yellow entry", "White kitchen cabinetry", "Wood-look flooring"],
   features: ["Brick exterior", "Gray interiors", "Marble-pattern bathroom tile", "Laundry room shown in gallery"],
   virtualTour: { kind: "photo-sequence", rooms: turns },

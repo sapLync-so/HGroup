@@ -22,7 +22,15 @@ test("Property 01 reuses existing actual photography and labels staging separate
   assert.ok(existsSync(path), "Missing reusable property model")
   const { properties } = await import(path.href)
   const p = properties[0]
-  assert.equal(p.gallery.length, 12)
+  const { galleryPhotos, heroPhotos } = await import(new URL("../lib/gallery.ts", import.meta.url).href)
+  assert.equal(p.heroImage.src, "/media/hero/refined-urban-rowhouse-facade-105.png")
+  assert.deepEqual(p.gallery.slice(0, 2).map((image: { src: string }) => image.src), [
+    "/media/hero/refined-urban-rowhouse-facade-105.png",
+    "/media/hero/urban-rowhouse-entrance-at-105.png",
+  ])
+  assert.deepEqual(p.gallery.slice(2), galleryPhotos)
+  assert.equal(heroPhotos[0].src, "/media/hero/facade-dusk.jpg")
+  assert.equal(p.gallery.length, 14)
   assert.equal(p.stagedGallery.length, 3)
   assert.equal(p.virtualTour.kind, "photo-sequence")
   const images = [p.heroImage, ...p.gallery, ...p.stagedGallery, ...p.virtualTour.rooms.flatMap((room: { frames: unknown[] }) => room.frames)]

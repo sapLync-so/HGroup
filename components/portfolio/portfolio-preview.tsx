@@ -7,7 +7,6 @@ import { PortfolioNav } from "./portfolio-nav"
 import { PortfolioHero } from "./portfolio-hero"
 import { PortfolioProperties } from "./portfolio-properties"
 import { PropertyDetailDialog } from "./property-detail-dialog"
-import { RoomViewer } from "./room-viewer"
 import { StagingGallery } from "./staging-gallery"
 import { PortfolioCta } from "./portfolio-cta"
 import { PortfolioFooter } from "./portfolio-footer"
@@ -17,8 +16,6 @@ export function PortfolioPreview() {
   const [inquiryPropertyId, setInquiryPropertyId] = useState<string | null>(null)
 
   const featured = properties.find((property) => property.featured) ?? properties[0]
-  const tourRooms =
-    featured?.virtualTour?.kind === "photo-sequence" ? featured.virtualTour.rooms : []
 
   const inquire = useCallback((property: Property) => {
     setInquiryPropertyId(property.id)
@@ -40,7 +37,6 @@ export function PortfolioPreview() {
           onView={setOpenProperty}
           onInquire={inquire}
         />
-        <RoomViewer rooms={tourRooms} propertyName={featured?.name ?? "This home"} />
         <StagingGallery photos={featured?.stagedGallery ?? []} />
         <PortfolioCta properties={properties} selectedPropertyId={inquiryPropertyId} />
       </main>
