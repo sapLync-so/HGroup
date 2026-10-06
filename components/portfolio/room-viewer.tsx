@@ -34,14 +34,14 @@ export function RoomViewer({
   }
 
   return (
-    <section id="tour" className="border-t border-[#e6dccb] bg-[#f7f3ec] py-20 md:py-28">
+    <section id="tour" className="border-t border-[var(--hg-line)] bg-[var(--hg-offwhite)] py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6 md:px-12">
         <Reveal>
-          <p className="text-xs uppercase tracking-[0.28em] text-[#8a7040]">Tour</p>
-          <h2 className="font-display mt-3 text-4xl font-semibold md:text-6xl">
+          <p className="hg-eyebrow">Tour</p>
+          <h2 className="font-display mt-3 text-4xl font-semibold text-[var(--hg-ink)] md:text-6xl">
             Walk the rooms
           </h2>
-          <p className="mt-4 max-w-2xl text-[#5c534c]">
+          <p className="mt-4 max-w-2xl text-[var(--hg-muted)]">
             {propertyName}, photographed in sequence. Drag sideways or use the
             arrows — every frame is a real photograph of the home as it stands.
           </p>
@@ -58,8 +58,8 @@ export function RoomViewer({
                 onClick={() => selectRoom(itemIndex)}
                 className={`rounded-full px-4 py-2 text-sm ${
                   itemIndex === room
-                    ? "gold-gradient font-semibold text-[#1a1614]"
-                    : "border border-[#e6dccb] text-[#5c534c] hover:border-[#b8882f]"
+                    ? "hg-btn-primary font-semibold"
+                    : "border border-[var(--hg-line)] text-[var(--hg-muted)] hover:border-[var(--hg-teal-ui)]"
                 }`}
               >
                 {item.title}
@@ -68,7 +68,7 @@ export function RoomViewer({
           </div>
 
           <div
-            className="relative mt-6 aspect-[4/5] cursor-ew-resize select-none overflow-hidden rounded-[2rem] bg-[#1a1614] md:aspect-[16/10]"
+            className="relative mt-6 aspect-[4/5] cursor-ew-resize select-none overflow-hidden rounded-[2rem] bg-[var(--hg-charcoal)] md:aspect-[16/10]"
             onPointerDown={(event) => {
               event.currentTarget.setPointerCapture(event.pointerId)
               drag.current = { x: event.clientX, frame }
@@ -97,12 +97,12 @@ export function RoomViewer({
               className="object-cover object-center"
               draggable={false}
             />
-            <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-6 text-[#f7f3ec]">
-              <p className="text-xs uppercase tracking-[0.28em] text-[#f7f3ec]/70">
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-6 text-white">
+              <p className="text-xs uppercase tracking-[0.28em] text-white/70">
                 Photo {frame + 1} of {active.frames.length}
               </p>
               <p className="font-display mt-1 text-3xl">{active.title}</p>
-              <p className="mt-1 max-w-xl text-sm text-[#f7f3ec]/80">{active.detail}</p>
+              <p className="mt-1 max-w-xl text-sm text-white/80">{active.detail}</p>
             </div>
           </div>
 
@@ -111,18 +111,18 @@ export function RoomViewer({
               type="button"
               onClick={() => move(-1)}
               aria-label={`Previous photo of ${active.title}`}
-              className="rounded-full border border-[#e6dccb] px-4 py-2 text-sm hover:border-[#b8882f]"
+              className="rounded-full border border-[var(--hg-line)] px-4 py-2 text-sm hover:border-[var(--hg-teal-ui)]"
             >
               Previous photo
             </button>
-            <p className="text-sm text-[#5c534c]" aria-live="polite">
+            <p className="text-sm text-[var(--hg-muted)]" aria-live="polite">
               {frame + 1} of {active.frames.length}
             </p>
             <button
               type="button"
               onClick={() => move(1)}
               aria-label={`Next photo of ${active.title}`}
-              className="rounded-full border border-[#e6dccb] px-4 py-2 text-sm hover:border-[#b8882f]"
+              className="rounded-full border border-[var(--hg-line)] px-4 py-2 text-sm hover:border-[var(--hg-teal-ui)]"
             >
               Next photo
             </button>

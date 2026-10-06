@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import Image from "next/image"
 
 const links = [
   { label: "Properties", href: "#properties" },
@@ -8,11 +9,11 @@ const links = [
 ]
 
 export function PortfolioNav() {
-  const [show, setShow] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
     const onScroll = () => {
-      setShow(window.scrollY > window.innerHeight * 0.75)
+      setScrolled(window.scrollY > 24)
     }
 
     onScroll()
@@ -22,31 +23,49 @@ export function PortfolioNav() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 border-b border-[#e6dccb] bg-[#f7f3ec]/80 backdrop-blur-md transition-transform duration-500 ${
-        show ? "translate-y-0" : "pointer-events-none -translate-y-full"
+      className={`fixed inset-x-0 top-0 z-50 border-b transition-colors duration-300 ${
+        scrolled
+          ? "border-[var(--hg-line-dark)] bg-[var(--hg-black)]/90 backdrop-blur-md"
+          : "border-transparent bg-transparent"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 md:px-12">
-        <a href="#top" className="font-display text-2xl font-semibold">
-          H <span className="gold-text">Group</span>
-          <span className="ml-2 text-sm font-normal uppercase tracking-[0.2em] text-[#8a7040]">
-            Rentals
-          </span>
+        <a href="#top" aria-label="H Group Associates & Investors — back to top">
+          <Image
+            src="/brand/hgroup-logo-dark-bg.png"
+            alt="H Group Associates & Investors"
+            width={550}
+            height={292}
+            priority
+            className="h-10 w-auto md:h-12"
+          />
         </a>
-        <nav className="hidden items-center gap-8 text-sm md:flex" aria-label="Portfolio sections">
+        <nav className="hidden items-center gap-8 md:flex" aria-label="Portfolio sections">
           {links.map((link) => (
-            <a key={link.href} href={link.href} className="hover:text-[#b8882f]">
+            <a key={link.href} href={link.href} className="hg-link-dark text-sm text-white/85">
               {link.label}
             </a>
           ))}
         </nav>
         <a
           href="#book"
-          className="gold-gradient rounded-full px-5 py-2 text-sm font-semibold text-[#1a1614]"
+          className="hg-btn-primary rounded-full px-5 py-2 text-sm font-semibold"
         >
-          Request a tour
+          Request a Tour
         </a>
       </div>
+      {scrolled && (
+        <nav
+          className="mx-auto flex max-w-7xl items-center gap-6 px-6 pb-3 md:hidden"
+          aria-label="Portfolio sections"
+        >
+          {links.map((link) => (
+            <a key={link.href} href={link.href} className="hg-link-dark text-xs text-white/85">
+              {link.label}
+            </a>
+          ))}
+        </nav>
+      )}
     </header>
   )
 }

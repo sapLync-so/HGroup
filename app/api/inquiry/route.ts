@@ -1,8 +1,8 @@
 import { Resend } from "resend"
 import { createServiceClient } from "@/lib/supabase"
 
-const TO_EMAIL = "info@hgroupai.com"
-const FROM_EMAIL = "HGroup Site <onboarding@resend.dev>"
+const TO_EMAIL = "info@hgroup.rentals"
+const TABLE = "hgroup_inquiries"
 
 const LIMITS = { name: 200, contact: 200, note: 2000 } as const
 
@@ -26,38 +26,60 @@ export async function POST(request: Request) {
   const name = clean(formData.get("name"), LIMITS.name)
   const contact = clean(formData.get("contact"), LIMITS.contact)
   const note = clean(formData.get("note"), LIMITS.note)
+  const sourcePage = clean(formData.get("source_page"), 200) || "/"
 
   if (!name || !contact) {
     return Response.json({ error: "Name and contact are required" }, { status: 400 })
   }
+  if (sourcePage !== "/" && sourcePage !== "/portfolio-preview") {
+    return Response.json({ error: "Invalid source page" }, { status: 400 })
+  }
 
+  let supabase: ReturnType<typeof createServiceClient>
+  let inquiryId: string
   try {
-    const supabase = createServiceClient()
-    const { error } = await supabase
-      .from("inquiries")
-      .insert({ name, contact, note: note || null })
-    if (error) throw error
-  } catch (error) {
-    console.error("inquiry: database insert failed", error)
+    supabase = createServiceClient()
+    const { data, error } = await supabase
+      .from(TABLE)
+      .insert({ name, contact, note: note || null, source_page: sourcePage })
+      .select("id")
+      .single()
+    if (error || !data?.id) throw new Error("Could not save inquiry")
+    inquiryId = data.id
+  } catch {
+    console.error("inquiry: database insert failed")
     return Response.json({ error: "Could not save inquiry" }, { status: 500 })
   }
 
+  let emailStatus: "sent" | "failed" = "failed"
   try {
     const apiKey = process.env.RESEND_API_KEY
-    if (!apiKey) throw new Error("RESEND_API_KEY must be set")
+    const from = process.env.RESEND_FROM_EMAIL
+    if (!apiKey || !from) throw new Error("Email configuration is missing")
     const resend = new Resend(apiKey)
-    const { error } = await resend.emails.send({
-      from: FROM_EMAIL,
+    const { data, error } = await resend.emails.send({
+      from,
       to: TO_EMAIL,
-      replyTo: contact,
-      subject: `New inquiry from ${name}`,
-      text: `Name: ${name}\nContact: ${contact}\n\n${note || "(no note)"}`,
+      ...(/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(contact) ? { replyTo: contact } : {}),
+      subject: `New H Group inquiry from ${name.replace(/[\r\n]+/g, " ")}`,
+      text: `Name: ${name}\nContact: ${contact}\nSource: ${sourcePage}\n\n${note || "(no note)"}`,
     })
-    if (error) throw new Error(error.message)
-  } catch (error) {
+    if (error || !data?.id) throw new Error("Email was not accepted")
+    emailStatus = "sent"
+  } catch {
     // The row is already stored; don't lose the inquiry over email failure.
-    console.error("inquiry: email send failed", error)
+    console.error("inquiry: email send failed")
   }
 
-  return Response.json({ ok: true })
+  try {
+    const { error } = await supabase
+      .from(TABLE)
+      .update({ email_status: emailStatus })
+      .eq("id", inquiryId)
+    if (error) throw new Error("Could not update email status")
+  } catch {
+    console.error("inquiry: email status update failed")
+  }
+
+  return Response.json({ ok: true, emailStatus })
 }

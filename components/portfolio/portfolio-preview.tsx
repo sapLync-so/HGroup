@@ -28,7 +28,7 @@ export function PortfolioPreview() {
   const closeDialog = useCallback(() => setOpenProperty(null), [])
 
   return (
-    <div className="bg-[#f7f3ec] text-[#1a1614]">
+    <div className="hg-brand bg-[var(--hg-offwhite)] text-[var(--hg-ink)]">
       <PortfolioNav />
       <PortfolioHero property={featured} />
       <main>
@@ -41,7 +41,10 @@ export function PortfolioPreview() {
         <PortfolioCta properties={properties} selectedPropertyId={inquiryPropertyId} />
       </main>
       <PortfolioFooter />
-      <StickyCta />
+      <StickyCta
+        label="Request a Tour"
+        className="hg-btn-primary rounded-full px-5 py-3 text-sm font-semibold shadow-lg"
+      />
       <PropertyDetailDialog
         property={openProperty}
         onClose={closeDialog}

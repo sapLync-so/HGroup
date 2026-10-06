@@ -12,16 +12,16 @@ export function PortfolioProperties({
   onInquire: (property: Property) => void
 }) {
   return (
-    <section id="properties" className="border-t border-[#e6dccb] bg-[#f7f3ec] py-20 md:py-28">
+    <section id="properties" className="border-t border-[var(--hg-line)] bg-[var(--hg-offwhite)] py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6 md:px-12">
         <Reveal>
-          <p className="text-xs uppercase tracking-[0.28em] text-[#8a7040]">
+          <p className="hg-eyebrow">
             The Properties
           </p>
-          <h2 className="font-display mt-3 text-4xl font-semibold md:text-6xl">
+          <h2 className="font-display mt-3 text-4xl font-semibold text-[var(--hg-ink)] md:text-6xl">
             Rent a home you&rsquo;ve actually seen.
           </h2>
-          <p className="mt-4 max-w-2xl text-[#5c534c]">
+          <p className="mt-4 max-w-2xl text-[var(--hg-muted)]">
             H Group gives prospective residents a clear view of its homes before
             scheduling a tour — real photographs, room by room, exactly as the
             property stands.
@@ -31,7 +31,7 @@ export function PortfolioProperties({
         <div className="mt-12 grid gap-8">
           {properties.map((property, index) => (
             <Reveal key={property.id} delay={index * 100}>
-              <article className="group grid overflow-hidden rounded-[2rem] border border-[#e6dccb] bg-white md:grid-cols-2">
+              <article className="group grid overflow-hidden rounded-[2rem] border border-[var(--hg-line)] bg-white md:grid-cols-2">
                 <button
                   type="button"
                   onClick={() => onView(property)}
@@ -47,20 +47,20 @@ export function PortfolioProperties({
                       className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
                     />
                   )}
-                  <span className="absolute left-5 top-5 rounded-full bg-[#1a1614]/80 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-[#e2b65a] backdrop-blur-sm">
+                  <span className="absolute left-5 top-5 rounded-full bg-[var(--hg-black)]/80 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--hg-gold)] backdrop-blur-sm">
                     Featured Property
                   </span>
                 </button>
 
                 <div className="flex flex-col justify-between gap-8 p-8 md:p-10">
                   <div>
-                    <p className="text-xs uppercase tracking-[0.24em] text-[#8a7040]">
+                    <p className="text-xs uppercase tracking-[0.24em] text-[var(--hg-teal-ui)]">
                       {property.inquiryReference}
                     </p>
                     <h3 className="font-display mt-2 text-3xl font-semibold md:text-4xl">
                       {property.name}
                     </h3>
-                    <p className="mt-4 leading-relaxed text-[#5c534c]">
+                    <p className="mt-4 leading-relaxed text-[var(--hg-muted)]">
                       {property.description}
                     </p>
                     {property.highlights && property.highlights.length > 0 && (
@@ -68,7 +68,7 @@ export function PortfolioProperties({
                         {property.highlights.map((highlight) => (
                           <li
                             key={highlight}
-                            className="rounded-full border border-[#e6dccb] px-3 py-1.5 text-xs text-[#5c534c]"
+                            className="rounded-full border border-[var(--hg-line)] px-3 py-1.5 text-xs text-[var(--hg-muted)]"
                           >
                             {highlight}
                           </li>
@@ -81,14 +81,14 @@ export function PortfolioProperties({
                     <button
                       type="button"
                       onClick={() => onView(property)}
-                      className="gold-gradient rounded-full px-6 py-3 text-sm font-semibold text-[#1a1614]"
+                      className="hg-btn-primary rounded-full px-6 py-3 text-sm font-semibold"
                     >
                       View this home
                     </button>
                     <button
                       type="button"
                       onClick={() => onInquire(property)}
-                      className="rounded-full border border-[#e6dccb] px-6 py-3 text-sm font-semibold text-[#5c534c] hover:border-[#b8882f] hover:text-[#8a7040]"
+                      className="hg-btn-outline-dark rounded-full px-6 py-3 text-sm font-semibold"
                     >
                       Ask about availability
                     </button>

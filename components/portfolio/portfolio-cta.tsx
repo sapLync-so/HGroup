@@ -11,7 +11,7 @@ export function PortfolioCta({
 }) {
   return (
     <Reveal>
-      <div className="bg-[#f7f3ec] px-6 pb-20 md:px-12 md:pb-28">
+      <div className="bg-[var(--hg-offwhite)] px-6 pb-20 md:px-12 md:pb-28">
         <div className="mx-auto max-w-7xl">
           <Inquiry
             id="book"
@@ -20,6 +20,7 @@ export function PortfolioCta({
             submitLabel="Request a tour"
             properties={properties}
             selectedPropertyId={selectedPropertyId}
+            tone="hgroup"
           />
         </div>
       </div>

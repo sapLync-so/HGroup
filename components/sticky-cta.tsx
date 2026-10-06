@@ -2,7 +2,13 @@
 
 import { useEffect, useState } from "react"
 
-export function StickyCta() {
+export function StickyCta({
+  className,
+  label = "Inquire",
+}: {
+  className?: string
+  label?: string
+}) {
   const [show, setShow] = useState(false)
 
   useEffect(() => {
@@ -31,9 +37,12 @@ export function StickyCta() {
       <div className="mx-auto flex max-w-7xl justify-end">
         <a
           href="#book"
-          className="gold-gradient rounded-full px-5 py-3 text-sm font-semibold text-[#1a1614] shadow-lg"
+          className={
+            className ??
+            "gold-gradient rounded-full px-5 py-3 text-sm font-semibold text-[#1a1614] shadow-lg"
+          }
         >
-          Inquire
+          {label}
         </a>
       </div>
     </div>

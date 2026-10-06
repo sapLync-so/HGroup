@@ -71,17 +71,17 @@ export function PropertyDetailDialog({
         type="button"
         aria-label="Close property details"
         onClick={onClose}
-        className="absolute inset-0 bg-[#1a1614]/70 backdrop-blur-sm"
+        className="absolute inset-0 bg-[var(--hg-black)]/75 backdrop-blur-sm"
       />
       <div
         ref={panelRef}
         role="dialog"
         aria-modal="true"
         aria-labelledby="property-dialog-title"
-        className="pp-dialog relative grid max-h-[92svh] w-full max-w-5xl overflow-y-auto rounded-t-[2rem] bg-[#f7f3ec] md:grid-cols-2 md:rounded-[2rem]"
+        className="pp-dialog relative grid max-h-[92svh] w-full max-w-5xl overflow-y-auto rounded-t-[2rem] bg-[var(--hg-offwhite)] md:grid-cols-2 md:rounded-[2rem]"
       >
         <div className="relative">
-          <div className="relative aspect-[4/3] bg-[#1a1614] md:aspect-auto md:h-full md:min-h-[32rem]">
+          <div className="relative aspect-[4/3] bg-[var(--hg-charcoal)] md:aspect-auto md:h-full md:min-h-[32rem]">
             {photo && (
               <Image
                 src={photo.src}
@@ -94,7 +94,7 @@ export function PropertyDetailDialog({
             <button
               type="button"
               onClick={onClose}
-              className="absolute right-4 top-4 rounded-full bg-[#1a1614]/80 px-4 py-2 text-sm font-semibold text-[#f7f3ec] backdrop-blur-sm hover:bg-[#1a1614]"
+              className="absolute right-4 top-4 rounded-full bg-[var(--hg-black)]/80 px-4 py-2 text-sm font-semibold text-white backdrop-blur-sm hover:bg-[var(--hg-black)]"
             >
               Close
             </button>
@@ -109,7 +109,7 @@ export function PropertyDetailDialog({
                   aria-label={`Show photo ${index + 1}: ${item.caption}`}
                   aria-current={index === photoIndex}
                   className={`relative h-14 w-20 shrink-0 overflow-hidden rounded-lg border-2 ${
-                    index === photoIndex ? "border-[#e2b65a]" : "border-transparent opacity-70"
+                    index === photoIndex ? "border-[var(--hg-teal)]" : "border-transparent opacity-70"
                   }`}
                 >
                   <Image
@@ -127,23 +127,23 @@ export function PropertyDetailDialog({
 
         <div className="flex flex-col gap-6 p-8 md:p-10">
           <div>
-            <p className="text-xs uppercase tracking-[0.24em] text-[#8a7040]">
+            <p className="hg-eyebrow tracking-[0.24em]">
               Featured Property · Ask About Availability
             </p>
             <h3
               id="property-dialog-title"
-              className="font-display mt-2 text-3xl font-semibold md:text-4xl"
+              className="font-display mt-2 text-3xl font-semibold text-[var(--hg-ink)] md:text-4xl"
             >
               {property.name}
             </h3>
-            <p className="mt-4 leading-relaxed text-[#5c534c]">{property.description}</p>
+            <p className="mt-4 leading-relaxed text-[var(--hg-muted)]">{property.description}</p>
           </div>
 
           {facts.length > 0 && (
             <dl className="grid grid-cols-2 gap-3">
               {facts.map((fact) => (
-                <div key={fact.label} className="rounded-xl border border-[#e6dccb] px-4 py-3">
-                  <dt className="text-xs uppercase tracking-[0.18em] text-[#8a7040]">{fact.label}</dt>
+                <div key={fact.label} className="rounded-xl border border-[var(--hg-line)] px-4 py-3">
+                  <dt className="text-xs uppercase tracking-[0.18em] text-[var(--hg-teal-ui)]">{fact.label}</dt>
                   <dd className="mt-1 text-sm font-semibold">{fact.value}</dd>
                 </div>
               ))}
@@ -152,12 +152,12 @@ export function PropertyDetailDialog({
 
           {property.highlights && property.highlights.length > 0 && (
             <div>
-              <h4 className="text-xs uppercase tracking-[0.18em] text-[#8a7040]">Highlights</h4>
+              <h4 className="text-xs uppercase tracking-[0.18em] text-[var(--hg-teal-ui)]">Highlights</h4>
               <ul className="mt-3 flex flex-wrap gap-2">
                 {property.highlights.map((highlight) => (
                   <li
                     key={highlight}
-                    className="rounded-full border border-[#e6dccb] px-3 py-1.5 text-xs text-[#5c534c]"
+                    className="rounded-full border border-[var(--hg-line)] px-3 py-1.5 text-xs text-[var(--hg-muted)]"
                   >
                     {highlight}
                   </li>
@@ -168,13 +168,13 @@ export function PropertyDetailDialog({
 
           {property.features && property.features.length > 0 && (
             <div>
-              <h4 className="text-xs uppercase tracking-[0.18em] text-[#8a7040]">
+              <h4 className="text-xs uppercase tracking-[0.18em] text-[var(--hg-teal-ui)]">
                 Shown in the photographs
               </h4>
-              <ul className="mt-3 space-y-2 text-sm text-[#5c534c]">
+              <ul className="mt-3 space-y-2 text-sm text-[var(--hg-muted)]">
                 {property.features.map((feature) => (
                   <li key={feature} className="flex gap-2">
-                    <span aria-hidden="true" className="text-[#b8882f]">—</span>
+                    <span aria-hidden="true" className="text-[var(--hg-teal)]">—</span>
                     {feature}
                   </li>
                 ))}
@@ -182,18 +182,18 @@ export function PropertyDetailDialog({
             </div>
           )}
 
-          <div className="mt-auto flex flex-wrap gap-4 border-t border-[#e6dccb] pt-6">
+          <div className="mt-auto flex flex-wrap gap-4 border-t border-[var(--hg-line)] pt-6">
             <button
               type="button"
               onClick={() => onInquire(property)}
-              className="gold-gradient rounded-full px-6 py-3 text-sm font-semibold text-[#1a1614]"
+              className="hg-btn-primary rounded-full px-6 py-3 text-sm font-semibold"
             >
               Request a tour of this home
             </button>
             <button
               type="button"
               onClick={onClose}
-              className="rounded-full border border-[#e6dccb] px-6 py-3 text-sm font-semibold text-[#5c534c] hover:border-[#b8882f]"
+              className="hg-btn-outline-dark rounded-full px-6 py-3 text-sm font-semibold"
             >
               Keep browsing
             </button>
