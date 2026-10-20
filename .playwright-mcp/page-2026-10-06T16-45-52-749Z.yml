@@ -1,0 +1,108 @@
+- generic [active] [ref=f35e1]:
+  - generic [ref=f35e2]:
+    - banner [ref=f35e3]:
+      - generic [ref=f35e4]:
+        - link "H Group Associates & Investors — back to top" [ref=f35e5] [cursor=pointer]:
+          - /url: "#top"
+          - img "H Group Associates & Investors" [ref=f35e6]
+        - navigation "Portfolio sections" [ref=f35e7]:
+          - link "Properties" [ref=f35e8] [cursor=pointer]:
+            - /url: "#properties"
+          - link "Staging" [ref=f35e9] [cursor=pointer]:
+            - /url: "#staged"
+        - link "Request a Tour" [ref=f35e10] [cursor=pointer]:
+          - /url: "#book"
+    - generic [ref=f35e11]:
+      - img "Daylight view of the brick rowhouse facade marked 105, with white window trim and entrance railings." [ref=f35e12]
+      - generic [ref=f35e14]:
+        - paragraph [ref=f35e15]: H GROUP ASSOCIATES & INVESTORS
+        - heading "Find a home that feels right." [level=1] [ref=f35e16]
+        - paragraph [ref=f35e17]: Explore H Group rental homes through authentic photography, detailed property information, and a closer look at each space. When you find the right fit, request a private tour.
+        - generic [ref=f35e18]:
+          - link "Explore Properties" [ref=f35e19] [cursor=pointer]:
+            - /url: "#properties"
+          - link "Request a Tour" [ref=f35e20] [cursor=pointer]:
+            - /url: "#book"
+        - generic [ref=f35e21]:
+          - generic [ref=f35e22]: Featured Property
+          - generic [ref=f35e23]: The Brick Residence
+          - generic [ref=f35e24]: Ask About Availability
+    - main [ref=f35e25]:
+      - generic [ref=f35e27]:
+        - generic [ref=f35e28]:
+          - paragraph [ref=f35e29]: The Properties
+          - heading "Rent a home you’ve actually seen." [level=2] [ref=f35e30]
+          - paragraph [ref=f35e31]: H Group gives prospective residents a clear view of its homes before scheduling a tour — real photographs, room by room, exactly as the property stands.
+        - article [ref=f35e34]:
+          - button "View photos and details for The Brick Residence" [ref=f35e35] [cursor=pointer]:
+            - img "Daylight view of the brick rowhouse facade marked 105, with white window trim and entrance railings." [ref=f35e36]
+            - generic [ref=f35e37]: Featured Property
+          - generic [ref=f35e38]:
+            - generic [ref=f35e39]:
+              - paragraph [ref=f35e40]: HGR-01
+              - heading "The Brick Residence" [level=3] [ref=f35e41]
+              - paragraph [ref=f35e42]: A brick exterior. A yellow door. A place to make your own. Take a closer look at the rooms, white kitchen and marble-pattern bath in our featured H Group residence.
+              - list [ref=f35e43]:
+                - listitem [ref=f35e44]: A distinctive yellow entry
+                - listitem [ref=f35e45]: White kitchen cabinetry
+                - listitem [ref=f35e46]: Wood-look flooring
+            - generic [ref=f35e47]:
+              - button "View this home" [ref=f35e48]
+              - button "Ask about availability" [ref=f35e49]
+      - generic [ref=f35e51]:
+        - generic [ref=f35e52]:
+          - paragraph [ref=f35e53]: Visualization
+          - heading "See how it could live" [level=2] [ref=f35e54]
+          - paragraph [ref=f35e55]: These rooms are virtually staged to show one possible arrangement. The furniture is not in the home — the residence is rented as photographed in the property gallery.
+        - generic [ref=f35e56]:
+          - figure "Living room" [ref=f35e58]:
+            - generic [ref=f35e59]:
+              - img "Virtually staged living room. The sofa, table, lamp, and rug are not in the residence." [ref=f35e60]
+              - generic [ref=f35e61]: Virtual staging
+          - figure "Bedroom" [ref=f35e64]:
+            - generic [ref=f35e65]:
+              - img "Virtually staged bedroom. The bed, nightstand, and rug are not in the residence." [ref=f35e66]
+              - generic [ref=f35e67]: Virtual staging
+          - figure "Kitchen" [ref=f35e70]:
+            - generic [ref=f35e71]:
+              - img "Virtually staged kitchen. The table, chairs, bowl, and runner are not in the residence." [ref=f35e72]
+              - generic [ref=f35e73]: Virtual staging
+      - generic [ref=f35e78]:
+        - heading "Request a tour" [level=2] [ref=f35e79]
+        - paragraph [ref=f35e80]: Tell us which home you're interested in and we'll help arrange a tour.
+        - generic [ref=f35e81]:
+          - generic [ref=f35e82]:
+            - text: Which home?
+            - combobox "Which home?" [ref=f35e83]:
+              - option "General inquiry" [selected]
+              - option "The Brick Residence (HGR-01) — Ask About Availability"
+          - generic [ref=f35e84]:
+            - text: Name
+            - textbox "Name" [ref=f35e85]
+          - generic [ref=f35e86]:
+            - text: Contact
+            - textbox "Contact" [ref=f35e87]
+          - generic [ref=f35e88]:
+            - text: Note
+            - textbox "Note" [ref=f35e89]
+          - button "Request a tour" [ref=f35e90]
+    - contentinfo [ref=f35e91]:
+      - generic [ref=f35e92]:
+        - generic [ref=f35e93]:
+          - link "H Group Associates & Investors — back to top" [ref=f35e94] [cursor=pointer]:
+            - /url: "#top"
+            - img "H Group Associates & Investors" [ref=f35e95]
+          - paragraph [ref=f35e96]: A portfolio of rental homes, shown as they stand. Photographs are of the actual properties; staged previews are always labeled.
+        - list [ref=f35e97]:
+          - listitem [ref=f35e98]:
+            - link "Properties" [ref=f35e99] [cursor=pointer]:
+              - /url: "#properties"
+          - listitem [ref=f35e100]:
+            - link "Staging" [ref=f35e101] [cursor=pointer]:
+              - /url: "#staged"
+          - listitem [ref=f35e102]:
+            - link "Request a Tour" [ref=f35e103] [cursor=pointer]:
+              - /url: "#book"
+    - link "Request a Tour" [ref=f35e106] [cursor=pointer]:
+      - /url: "#book"
+  - alert [ref=f35e107]

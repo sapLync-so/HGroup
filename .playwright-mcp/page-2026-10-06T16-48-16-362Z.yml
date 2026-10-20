@@ -1,0 +1,99 @@
+- generic [active]:
+  - generic [ref=f40e1]:
+    - generic [ref=f40e5]:
+      - complementary [ref=f40e7]:
+        - button "S saphouse" [ref=f40e9] [cursor=pointer]:
+          - generic [ref=f40e11]:
+            - generic [ref=f40e12]: S
+            - generic [ref=f40e28]: saphouse
+        - navigation [ref=f40e33]:
+          - list [ref=f40e34]:
+            - listitem [ref=f40e35]:
+              - link [ref=f40e36] [cursor=pointer]:
+                - /url: /emails
+            - listitem [ref=f40e44]:
+              - link [ref=f40e45] [cursor=pointer]:
+                - /url: /broadcasts
+            - listitem [ref=f40e59]:
+              - link [ref=f40e60] [cursor=pointer]:
+                - /url: /automations
+            - listitem [ref=f40e68]:
+              - link [ref=f40e69] [cursor=pointer]:
+                - /url: /templates
+            - listitem [ref=f40e83]:
+              - link [ref=f40e84] [cursor=pointer]:
+                - /url: /audience
+            - listitem [ref=f40e101]:
+              - link [ref=f40e102] [cursor=pointer]:
+                - /url: /metrics
+            - listitem [ref=f40e116]:
+              - link [ref=f40e117] [cursor=pointer]:
+                - /url: /domains
+            - listitem [ref=f40e201]:
+              - link [ref=f40e202] [cursor=pointer]:
+                - /url: /logs
+            - listitem [ref=f40e222]:
+              - link [ref=f40e223] [cursor=pointer]:
+                - /url: /api-keys
+            - listitem [ref=f40e241]:
+              - link [ref=f40e242] [cursor=pointer]:
+                - /url: /webhooks
+            - listitem [ref=f40e259]:
+              - link [ref=f40e260] [cursor=pointer]:
+                - /url: /settings
+        - generic [ref=f40e270]:
+          - button "Appearance" [ref=f40e271] [cursor=pointer]
+          - generic [ref=f40e275]:
+            - button "Feedback" [ref=f40e276] [cursor=pointer]
+            - link "Help" [ref=f40e280] [cursor=pointer]:
+              - /url: /help
+      - generic [ref=f40e284]:
+        - heading "Emails" [level=1] [ref=f40e286]
+        - generic [ref=f40e287]:
+          - generic [ref=f40e288]:
+            - tablist [ref=f40e290]:
+              - tab "Sending" [selected] [ref=f40e291] [cursor=pointer]
+              - tab "Receiving" [ref=f40e292] [cursor=pointer]
+            - generic [ref=f40e293]:
+              - link "Suppressions" [ref=f40e294] [cursor=pointer]:
+                - /url: /emails/suppressions
+              - button "Open API drawer" [ref=f40e299] [cursor=pointer]
+          - generic [ref=f40e303]:
+            - textbox "Search..." [ref=f40e306]
+            - generic [ref=f40e307]:
+              - button "Last 15 days" [ref=f40e308] [cursor=pointer]
+              - button "All Statuses" [ref=f40e313] [cursor=pointer]
+              - combobox [ref=f40e318] [cursor=pointer]:
+                - generic [ref=f40e319]: All API keys
+              - textbox [aria-hidden] [ref=f40e322]: all
+            - button [ref=f40e323] [cursor=pointer]
+          - table [ref=f40e329]:
+            - rowgroup [ref=f40e330]:
+              - row [ref=f40e331]:
+                - columnheader "To" [ref=f40e332]
+                - columnheader "Status" [ref=f40e333]
+                - columnheader "Subject" [ref=f40e334]
+                - columnheader "Sent" [ref=f40e335]
+                - columnheader [ref=f40e336]
+            - rowgroup [ref=f40e337]:
+              - row [ref=f40e338]:
+                - cell [ref=f40e339]:
+                  - generic [ref=f40e340]:
+                    - link [ref=f40e341] [cursor=pointer]:
+                      - /url: /emails/01a1121b-f444-7382-813c-764e9a1473bb
+                    - link "info@hgroup.rentals" [ref=f40e378] [cursor=pointer]:
+                      - /url: /emails/01a1121b-f444-7382-813c-764e9a1473bb
+                - cell "delivered" [ref=f40e379]
+                - cell "New H Group inquiry from H Group Test" [ref=f40e382]
+                - cell [ref=f40e384]:
+                  - time [ref=f40e386]: 2min ago
+                - cell [ref=f40e387]:
+                  - button "More actions" [ref=f40e388] [cursor=pointer]
+    - generic [ref=f40e396]:
+      - 'link "Docs: /docs/dashboard/emails/introduction"':
+        - /url: https://resend.com/docs/dashboard/emails/introduction
+        - generic [ref=f40e397] [cursor=pointer]: /docs
+        - generic: /emails
+      - button "Ask anything" [ref=f40e405] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f40e410]

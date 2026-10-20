@@ -1,0 +1,124 @@
+- generic [active] [ref=f25e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=f25e3]:
+    - generic [ref=f25e4]:
+      - generic [ref=f25e5]:
+        - generic [ref=f25e6]:
+          - generic [ref=f25e7]:
+            - generic [ref=f25e10]:
+              - link "sapLync Hobby" [ref=f25e11] [cursor=pointer]:
+                - /url: /saplync
+                - generic [ref=f25e14]:
+                  - generic [ref=f25e15]: sapLync
+                  - generic [ref=f25e16]: Hobby
+              - button [ref=f25e18] [cursor=pointer]
+            - button "Find F" [ref=f25e23]:
+              - generic [ref=f25e25]:
+                - generic [ref=f25e29]: Find
+                - generic [ref=f25e30]: F
+          - navigation [ref=f25e34]:
+            - generic [ref=f25e38]:
+              - link "Overview" [ref=f25e39] [cursor=pointer]:
+                - /url: /saplync/hgroup
+              - link "Deployments" [ref=f25e44] [cursor=pointer]:
+                - /url: /saplync/hgroup/deployments
+              - link "Logs" [ref=f25e50] [cursor=pointer]:
+                - /url: /saplync/hgroup/logs
+              - link "Analytics" [ref=f25e59] [cursor=pointer]:
+                - /url: /saplync/hgroup/analytics
+              - link "Speed Insights" [ref=f25e65] [cursor=pointer]:
+                - /url: /saplync/hgroup/speed-insights
+              - link "Observability" [ref=f25e71] [cursor=pointer]:
+                - /url: /saplync/hgroup/observability
+              - link "Firewall" [ref=f25e80] [cursor=pointer]:
+                - /url: /saplync/hgroup/firewall
+              - link "CDN" [ref=f25e89] [cursor=pointer]:
+                - /url: /saplync/hgroup/cdn
+              - separator [ref=f25e98]
+              - link "Environment Variables" [ref=f25e99] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings/environment-variables
+              - link "Domains" [ref=f25e105] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings/domains
+              - link "Connect" [ref=f25e111] [cursor=pointer]:
+                - /url: /saplync/hgroup/connect
+              - link "Integrations" [ref=f25e120] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings/integrations
+              - link "Storage" [ref=f25e126] [cursor=pointer]:
+                - /url: /saplync/hgroup/stores
+              - link "Flags" [ref=f25e132] [cursor=pointer]:
+                - /url: /saplync/hgroup/flags
+              - link "Agent" [ref=f25e141] [cursor=pointer]:
+                - /url: /saplync/hgroup/agent
+              - link "AI Gateway" [ref=f25e150] [cursor=pointer]:
+                - /url: /saplync/hgroup/ai-gateway
+              - link "Sandboxes" [ref=f25e159] [cursor=pointer]:
+                - /url: /saplync/hgroup/sandboxes
+              - link "Workflows" [ref=f25e168] [cursor=pointer]:
+                - /url: /saplync/hgroup/workflows
+              - link "Images" [ref=f25e174] [cursor=pointer]:
+                - /url: /saplync/hgroup/images
+              - separator [ref=f25e180]
+              - link "Usage" [ref=f25e181] [cursor=pointer]:
+                - /url: /saplync/hgroup/usage
+              - link "Support" [ref=f25e187] [cursor=pointer]:
+                - /url: /saplync/hgroup/support
+              - link "Settings" [ref=f25e193] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings
+          - generic [ref=f25e206]:
+            - button "Avatar for info-87344975 saplync" [ref=f25e207] [cursor=pointer]:
+              - img "Avatar for info-87344975" [ref=f25e208]:
+                - img "Avatar for info-87344975" [ref=f25e209]
+              - generic [ref=f25e210]: saplync
+            - button "7 unseen notifications" [ref=f25e217] [cursor=pointer]
+        - button [ref=f25e223] [cursor=pointer]
+      - generic [ref=f25e227]:
+        - generic [ref=f25e574]:
+          - generic [ref=f25e577]:
+            - link "hgroup" [ref=f25e578] [cursor=pointer]:
+              - /url: /saplync/hgroup
+            - button [ref=f25e582] [cursor=pointer]
+            - link "Back to team view" [ref=f25e588] [cursor=pointer]:
+              - /url: /saplync/~/deployments
+          - navigation "Breadcrumb" [ref=f25e592]:
+            - generic [ref=f25e593]:
+              - link "Deployments" [ref=f25e595] [cursor=pointer]:
+                - /url: /saplync/hgroup/deployments
+              - generic [ref=f25e600]:
+                - generic [ref=f25e601]: 9THYvz365
+                - button "Copy ID" [ref=f25e605] [cursor=pointer]
+          - button "Vercel Agent is available on Pro" [ref=f25e615] [cursor=pointer]:
+            - generic [ref=f25e628]: Agent
+        - generic [ref=f25e630]:
+          - generic [ref=f25e632]:
+            - link "Deployment" [ref=f25e633] [cursor=pointer]:
+              - /url: /saplync/hgroup/9mAhKCMjgUsea7kn3HkVDJxigEEw
+            - link "Logs" [ref=f25e634] [cursor=pointer]:
+              - /url: /saplync/hgroup/9mAhKCMjgUsea7kn3HkVDJxigEEw/logs
+            - link "Resources" [ref=f25e635] [cursor=pointer]:
+              - /url: /saplync/hgroup/9mAhKCMjgUsea7kn3HkVDJxigEEw/resources
+            - link "Source" [ref=f25e636] [cursor=pointer]:
+              - /url: /saplync/hgroup/9mAhKCMjgUsea7kn3HkVDJxigEEw/source
+            - link "Open Graph" [ref=f25e637] [cursor=pointer]:
+              - /url: /saplync/hgroup/9mAhKCMjgUsea7kn3HkVDJxigEEw/og
+          - generic [ref=f25e638]:
+            - generic [ref=f25e640]:
+              - heading "Deployment Details" [level=3] [ref=f25e643]
+              - generic [ref=f25e651]:
+                - generic [ref=f25e652]:
+                  - generic [ref=f25e653]: Created
+                  - generic [ref=f25e657]: Status
+                  - generic [ref=f25e661]: Duration
+                  - generic [ref=f25e665]: Environment
+                - generic [ref=f25e669]: Domains
+                - generic [ref=f25e675]: Source
+            - generic [ref=f25e682]:
+              - heading [level=2] [ref=f25e684]
+              - heading [level=2] [ref=f25e686]
+              - heading [level=2] [ref=f25e688]
+  - alert [ref=f25e494]
+  - status [ref=f25e703]:
+    - generic [ref=f25e705]:
+      - generic [ref=f25e706]: "success:"
+      - generic [ref=f25e707]: Deployment created
+      - button "Dismiss toast" [ref=f25e709] [cursor=pointer]

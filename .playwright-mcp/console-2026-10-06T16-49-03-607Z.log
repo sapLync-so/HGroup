@@ -1,0 +1,18 @@
+[    1147ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://files.namecheap.com/cdn/1293/assets/css/fonts/museo-sans-700-webfont.woff2:0
+[    1147ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://files.namecheap.com/cdn/1293/assets/css/fonts/gb-icon.woff2:0
+[    1148ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://files.namecheap.com/cdn/1293/assets/css/fonts/museo-sans-300-webfont.woff2:0
+[    1148ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://files.namecheap.com/cdn/1293/assets/css/fonts/gb-icon-font.woff2:0
+[    1148ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://files.namecheap.com/cdn/1293/assets/css/fonts/museo-sans-500-webfont.woff2:0
+[    1186ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ https://www.namecheap.com/myaccount/login/?ReturnUrl=%2f:0
+[    1486ms] Uncaught SyntaxError: Invalid regular expression: /^/support(/: Unterminated group
+    at <anonymous> (https://files.namecheap.com/cdn/0/assets/js/v1293.global-script.min.js:81:9061)
+    at <anonymous> (https://cdn.engagement.ai/production/static/js/sdk/chatSDK.BfZQa1KN.js:16:20335)
+    at isPageMatching (https://cdn.engagement.ai/production/static/js/sdk/chatSDK.BfZQa1KN.js:16:20195)
+    at isPageAllowed (https://cdn.engagement.ai/production/static/js/sdk/chatSDK.BfZQa1KN.js:16:20482)
+    at shouldRemoveWidget (https://cdn.engagement.ai/production/static/js/sdk/chatSDK.BfZQa1KN.js:126:19249)
+    at initEngagementPlatform (https://cdn.engagement.ai/production/static/js/sdk/chatSDK.BfZQa1KN.js:126:18710)
+    at registerHandlers (https://cdn.engagement.ai/production/static/js/sdk/chatSDK.BfZQa1KN.js:126:18923)
+    at init (https://cdn.engagement.ai/production/static/js/sdk/chatSDK.BfZQa1KN.js:126:20861)
+    at <anonymous> (https://cdn.engagement.ai/production/static/js/sdk/chatSDK.BfZQa1KN.js:126:20974)
+    at <anonymous> (https://cdn.engagement.ai/production/static/js/sdk/chatSDK.BfZQa1KN.js:126:21000)
+[    3501ms] [WARNING] [Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications. @ https://connect.facebook.net/en_US/fbevents.js:203

@@ -1,0 +1,29 @@
+- generic [ref=f57e1]:
+  - main [ref=f57e5]:
+    - generic [ref=f57e6]:
+      - generic [ref=f57e7]:
+        - link [ref=f57e8] [cursor=pointer]:
+          - /url: /
+          - img "PrivateEmail" [ref=f57e9]
+        - button "en" [ref=f57e13] [cursor=pointer]
+      - generic [ref=f57e20]:
+        - heading "Login to your account" [level=1] [ref=f57e28]
+        - generic [ref=f57e29]:
+          - generic [ref=f57e30]:
+            - generic [ref=f57e31]:
+              - generic [ref=f57e32]: Email
+              - textbox "Email" [active] [ref=f57e34]:
+                - /placeholder: Enter your mailbox
+            - generic [ref=f57e35]:
+              - generic [ref=f57e36]: Password
+              - generic [ref=f57e37]:
+                - textbox "Password" [ref=f57e38]:
+                  - /placeholder: Enter your password
+                - button "Toggle password" [ref=f57e39] [cursor=pointer]
+            - button "Log in" [ref=f57e44] [cursor=pointer]
+          - generic [ref=f57e46]:
+            - link "Discover Private Email" [ref=f57e47] [cursor=pointer]:
+              - /url: https://www.namecheap.com/hosting/email/
+            - link "Forgot password?" [ref=f57e48] [cursor=pointer]:
+              - /url: https://www.namecheap.com/support/knowledgebase/article.aspx/1053/2215/how-to-change-namecheap-private-email-password/
+  - generic: Cookies Settings

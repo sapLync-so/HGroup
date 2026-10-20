@@ -1,0 +1,106 @@
+- generic [active] [ref=f20e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=f20e3]:
+    - generic [ref=f20e4]:
+      - generic [ref=f20e5]:
+        - generic [ref=f20e6]:
+          - generic [ref=f20e7]:
+            - generic [ref=f20e10]:
+              - link "sapLync Hobby" [ref=f20e11] [cursor=pointer]:
+                - /url: /saplync
+                - generic [ref=f20e14]:
+                  - generic [ref=f20e15]: sapLync
+                  - generic [ref=f20e16]: Hobby
+              - button [ref=f20e18] [cursor=pointer]
+            - button "Find F" [ref=f20e23]:
+              - generic [ref=f20e25]:
+                - generic [ref=f20e29]: Find
+                - generic [ref=f20e30]: F
+          - navigation [ref=f20e34]:
+            - generic [ref=f20e38]:
+              - link "Overview" [ref=f20e39] [cursor=pointer]:
+                - /url: /saplync/hgroup
+              - link "Deployments" [ref=f20e44] [cursor=pointer]:
+                - /url: /saplync/hgroup/deployments
+              - link "Logs" [ref=f20e50] [cursor=pointer]:
+                - /url: /saplync/hgroup/logs
+              - link "Analytics" [ref=f20e59] [cursor=pointer]:
+                - /url: /saplync/hgroup/analytics
+              - link "Speed Insights" [ref=f20e65] [cursor=pointer]:
+                - /url: /saplync/hgroup/speed-insights
+              - link "Observability" [ref=f20e71] [cursor=pointer]:
+                - /url: /saplync/hgroup/observability
+              - link "Firewall" [ref=f20e80] [cursor=pointer]:
+                - /url: /saplync/hgroup/firewall
+              - link "CDN" [ref=f20e89] [cursor=pointer]:
+                - /url: /saplync/hgroup/cdn
+              - separator [ref=f20e98]
+              - link "Environment Variables" [ref=f20e99] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings/environment-variables
+              - link "Domains" [ref=f20e105] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings/domains
+              - link "Connect" [ref=f20e111] [cursor=pointer]:
+                - /url: /saplync/hgroup/connect
+              - link "Integrations" [ref=f20e120] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings/integrations
+              - link "Storage" [ref=f20e126] [cursor=pointer]:
+                - /url: /saplync/hgroup/stores
+              - link "Flags" [ref=f20e132] [cursor=pointer]:
+                - /url: /saplync/hgroup/flags
+              - link "Agent" [ref=f20e141] [cursor=pointer]:
+                - /url: /saplync/hgroup/agent
+              - link "AI Gateway" [ref=f20e150] [cursor=pointer]:
+                - /url: /saplync/hgroup/ai-gateway
+              - link "Sandboxes" [ref=f20e159] [cursor=pointer]:
+                - /url: /saplync/hgroup/sandboxes
+              - link "Workflows" [ref=f20e168] [cursor=pointer]:
+                - /url: /saplync/hgroup/workflows
+              - link "Images" [ref=f20e174] [cursor=pointer]:
+                - /url: /saplync/hgroup/images
+              - separator [ref=f20e180]
+              - link "Usage" [ref=f20e181] [cursor=pointer]:
+                - /url: /saplync/hgroup/usage
+              - link "Support" [ref=f20e187] [cursor=pointer]:
+                - /url: /saplync/hgroup/support
+              - link "Settings" [ref=f20e193] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings
+          - generic [ref=f20e206]:
+            - button "Avatar for info-87344975 saplync" [ref=f20e207] [cursor=pointer]:
+              - img "Avatar for info-87344975" [ref=f20e208]:
+                - img "Avatar for info-87344975" [ref=f20e209]
+              - generic [ref=f20e210]: saplync
+            - button "7 unseen notifications" [ref=f20e217] [cursor=pointer]
+        - button [ref=f20e221] [cursor=pointer]
+      - generic [ref=f20e225]:
+        - generic [ref=f20e226]:
+          - generic [ref=f20e229]:
+            - link "hgroup" [ref=f20e230] [cursor=pointer]:
+              - /url: /saplync/hgroup
+            - button [ref=f20e234] [cursor=pointer]
+            - link "Back to team view" [ref=f20e240] [cursor=pointer]:
+              - /url: /saplync/~/deployments
+          - navigation "Breadcrumb"
+          - button "Vercel Agent is available on Pro" [ref=f20e246] [cursor=pointer]:
+            - generic [ref=f20e259]: Agent
+        - generic [ref=f20e267]:
+          - generic [ref=f20e268]:
+            - heading "Deployments" [level=1] [ref=f20e270]
+            - button "Deployments actions" [ref=f20e272] [cursor=pointer]
+          - generic [ref=f20e281]:
+            - button "Add Filter" [ref=f20e283] [cursor=pointer]
+            - generic [ref=f20e291]:
+              - button "Environment Preview" [ref=f20e292] [cursor=pointer]:
+                - generic [ref=f20e295]:
+                  - generic [ref=f20e296]: Environment
+                  - generic [ref=f20e297]: Preview
+              - button "Remove Environment filter" [ref=f20e298] [cursor=pointer]
+            - button "Author info-87344975" [ref=f20e302] [cursor=pointer]:
+              - generic [ref=f20e305]:
+                - generic [ref=f20e306]: Author
+                - generic [ref=f20e307]: info-87344975
+            - button "Status Error" [ref=f20e309] [cursor=pointer]:
+              - generic [ref=f20e312]:
+                - generic [ref=f20e313]: Status
+                - generic [ref=f20e314]: Error
+  - alert [ref=f20e639]

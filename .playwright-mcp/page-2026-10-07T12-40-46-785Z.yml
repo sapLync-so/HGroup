@@ -1,0 +1,70 @@
+- generic [active] [ref=f79e1]:
+  - generic [ref=f79e4]:
+    - link "Skip to content" [ref=f79e6] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f79e9]:
+      - navigation [ref=f79e10]:
+        - button "Connect" [disabled] [ref=f79e13]
+        - generic [ref=f79e18]:
+          - button [ref=f79e19] [cursor=pointer]
+          - button "Open menu" [ref=f79e24] [cursor=pointer]
+      - navigation "Floating toolbar" [ref=f79e27]:
+        - generic [ref=f79e28]:
+          - button [ref=f79e29] [cursor=pointer]
+          - button "Help" [ref=f79e35] [cursor=pointer]
+          - button "Advisor Center" [ref=f79e43] [cursor=pointer]
+          - button "SQL Editor" [ref=f79e49] [cursor=pointer]
+          - button "AI Assistant" [ref=f79e55] [cursor=pointer]
+    - main [ref=f79e67]:
+      - main [ref=f79e72]:
+        - generic [ref=f79e73]:
+          - generic [ref=f79e74]:
+            - tablist [ref=f79e76]:
+              - generic [ref=f79e77]:
+                - generic [ref=f79e79]:
+                  - generic [ref=f79e80]:
+                    - tab "Untitled query" [ref=f79e81] [cursor=pointer]
+                    - button "Close tab" [ref=f79e93] [cursor=pointer]
+                  - separator [ref=f79e97]
+                - generic [ref=f79e98]:
+                  - tab "New" [selected] [ref=f79e99] [cursor=pointer]
+                  - button "Close new tab" [ref=f79e105] [cursor=pointer]
+            - status [ref=f79e110]
+          - generic [ref=f79e112]:
+            - generic [ref=f79e113]:
+              - generic [ref=f79e114]:
+                - generic [ref=f79e115]: Autosave enabled
+                - button "Disable autosave" [ref=f79e116] [cursor=pointer]
+              - button "More actions" [ref=f79e122] [cursor=pointer]
+              - generic [ref=f79e128]:
+                - generic [ref=f79e129]:
+                  - generic [ref=f79e130] [cursor=pointer]:
+                    - generic [ref=f79e131]: Source
+                    - button "Primary database" [ref=f79e132]
+                  - button "Role postgres" [ref=f79e140] [cursor=pointer]:
+                    - generic [ref=f79e142]:
+                      - generic [ref=f79e143]: Role
+                      - generic [ref=f79e144]: postgres
+                - button "Limit 100 rows" [ref=f79e147] [cursor=pointer]
+                - button "Run" [ref=f79e153] [cursor=pointer]:
+                  - generic [ref=f79e156]: Ctrl ↵
+            - generic [ref=f79e157]:
+              - code [ref=f79e165]:
+                - generic [ref=f79e166]:
+                  - generic [ref=f79e169]: "1"
+                  - textbox "Editor content" [ref=f79e181]
+                  - generic: Hit CTRL+SHIFT+K to generate query or just start typing
+              - separator [ref=f79e183]
+              - generic [ref=f79e194]:
+                - tablist [ref=f79e195]:
+                  - generic [ref=f79e196]:
+                    - tab "Results" [selected] [ref=f79e197] [cursor=pointer]
+                    - tab "Chart" [ref=f79e199] [cursor=pointer]
+                - paragraph [ref=f79e202]:
+                  - text: Click
+                  - code [ref=f79e203]: Run
+                  - text: to execute your query
+  - alert [ref=f79e204]: Untitled query | SQL Editor | Supabase
+  - generic [ref=f79e205]:
+    - alert
+    - alert

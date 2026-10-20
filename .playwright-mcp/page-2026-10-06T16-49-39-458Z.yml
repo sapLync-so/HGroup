@@ -1,0 +1,8 @@
+- generic [active] [ref=f57e1]:
+  - main [ref=f57e5]:
+    - generic [ref=f57e7]:
+      - link [ref=f57e8] [cursor=pointer]:
+        - /url: /
+        - img "PrivateEmail" [ref=f57e9]
+      - button "en" [ref=f57e13] [cursor=pointer]
+  - generic: Cookies Settings

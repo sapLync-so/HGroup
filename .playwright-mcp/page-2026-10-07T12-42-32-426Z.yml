@@ -1,0 +1,137 @@
+- main [ref=f86e5]:
+  - generic [ref=f86e6]:
+    - generic [ref=f86e7]:
+      - link "Discover Private Email" [ref=f86e8] [cursor=pointer]:
+        - /url: https://www.namecheap.com/hosting/email/
+        - img "PrivateEmail" [ref=f86e9]
+      - generic [ref=f86e12]:
+        - button "en" [ref=f86e14] [cursor=pointer]
+        - button "Login" [ref=f86e18] [cursor=pointer]
+    - generic [ref=f86e20]:
+      - generic [ref=f86e22]:
+        - generic [ref=f86e23]:
+          - paragraph [ref=f86e24]: POWERED BY NAMECHEAP™
+          - heading "Send like you mean business" [level=1] [ref=f86e25]
+        - generic [ref=f86e26]:
+          - link "Discover Private Email" [ref=f86e27] [cursor=pointer]:
+            - /url: https://www.namecheap.com/hosting/email/
+          - button "Login" [ref=f86e29] [cursor=pointer]
+      - img "Business owner using Private Email" [ref=f86e33]
+      - paragraph [ref=f86e35]: Win customer trust with a business email like @yourbrand.com, now free for 30 days.
+    - generic [ref=f86e39]:
+      - heading "Why Private Email" [level=2] [ref=f86e40]
+      - generic [ref=f86e41]:
+        - article [ref=f86e42]:
+          - heading "Ready, set, pro" [level=3] [ref=f86e45]
+          - paragraph [ref=f86e46]: Build a professional email like @mybrand.com that shows you mean business from day one.
+        - article [ref=f86e47]:
+          - heading "Secure to the core" [level=3] [ref=f86e50]
+          - paragraph [ref=f86e51]: Filter every threat before it lands, encrypt your data, and control it all from one intelligent security center.
+        - article [ref=f86e52]:
+          - heading "Always connected" [level=3] [ref=f86e55]
+          - paragraph [ref=f86e56]: Stay online through every send, every reply, and every deal, with 99.9% uptime guaranteed.
+        - article [ref=f86e57]:
+          - heading "Triple checks, less spam" [level=3] [ref=f86e60]
+          - paragraph [ref=f86e61]: Stop sorting through junk, start opening emails that matter. Jellyfish spam protection does the filtering for you.
+        - article [ref=f86e62]:
+          - heading "Inbox to invite" [level=3] [ref=f86e65]
+          - paragraph [ref=f86e66]: Read the email, create the event with the built-in calendar, and send the invite, all without leaving your inbox.
+        - article [ref=f86e67]:
+          - heading "Support that never sleeps" [level=3] [ref=f86e70]
+          - paragraph [ref=f86e71]: Get support from real humans on hand to answer your questions 24/7.
+    - generic [ref=f86e72]:
+      - generic [ref=f86e73]:
+        - heading "One inbox for every way you business" [level=2] [ref=f86e74]
+        - paragraph [ref=f86e75]: Whatever the size of your business, get an inbox built for more trust, more security, and more growth.
+        - link "Try business email" [ref=f86e77] [cursor=pointer]:
+          - /url: https://www.namecheap.com/hosting/email/
+      - article [ref=f86e79]:
+        - img "Person using Private Email" [ref=f86e81]
+        - generic [ref=f86e82]:
+          - heading "For individuals" [level=3] [ref=f86e83]
+          - paragraph [ref=f86e84]: Look legitimate, stay protected, and turn every email into a reason to remember who you are.
+      - article [ref=f86e85]:
+        - generic [ref=f86e86]:
+          - heading "For enterprise" [level=3] [ref=f86e87]
+          - paragraph [ref=f86e88]: Send, collaborate, and reach new heights with an email that doesn’t get in your way.
+      - article [ref=f86e91]:
+        - img "Business team collaborating" [ref=f86e93]
+        - generic [ref=f86e94]:
+          - heading "For businesses" [level=3] [ref=f86e95]
+          - paragraph [ref=f86e96]: Meet your business goals faster and keep your team in sync and reachable around the clock.
+    - generic [ref=f86e97]:
+      - generic [ref=f86e98]:
+        - heading "Ready to impress?" [level=2] [ref=f86e99]
+        - paragraph [ref=f86e100]: Get started in three simple steps.
+        - link "Try business email" [ref=f86e102] [cursor=pointer]:
+          - /url: https://www.namecheap.com/hosting/email/
+      - article [ref=f86e104]:
+        - paragraph [ref=f86e105]: "01"
+        - generic [ref=f86e106]:
+          - generic [ref=f86e107]:
+            - heading "Connect your domain" [level=3] [ref=f86e108]
+            - paragraph [ref=f86e109]: Connect an existing domain to Private Email, or create a new one, and get a pro email that matches it.
+          - link "Connect your domain" [ref=f86e111] [cursor=pointer]:
+            - /url: https://www.namecheap.com/support/knowledgebase/article.aspx/1165/2215/how-to-order-namecheap-private-email/
+            - generic [ref=f86e114]:
+              - text: Learn more
+              - generic [ref=f86e115]: ": Connect your domain"
+      - article [ref=f86e116]:
+        - paragraph [ref=f86e117]: "02"
+        - generic [ref=f86e118]:
+          - generic [ref=f86e119]:
+            - heading "Set up your inbox" [level=3] [ref=f86e120]
+            - paragraph [ref=f86e121]: Quickly add your DNS records, and your mailbox is open for business and ready to go.
+          - link "Set up your inbox" [ref=f86e123] [cursor=pointer]:
+            - /url: https://www.namecheap.com/support/knowledgebase/article.aspx/1055/?utm_nooverride=1&utm_source=privateemail.com&utm_medium=landing_page&utm_campaign=try_it_for_free
+            - generic [ref=f86e126]:
+              - text: Learn more
+              - generic [ref=f86e127]: ": Set up your inbox"
+      - article [ref=f86e128]:
+        - paragraph [ref=f86e129]: "03"
+        - generic [ref=f86e130]:
+          - generic [ref=f86e131]:
+            - heading "Start sending" [level=3] [ref=f86e132]
+            - paragraph [ref=f86e133]: Use Private Email anywhere through webmail or easily set up your favorite mail client with IMAP, POP3, or SMTP.
+          - link "Start sending" [ref=f86e135] [cursor=pointer]:
+            - /url: https://www.namecheap.com/support/knowledgebase/article.aspx/1179/2175/general-private-email-configuration-for-mail-clients-and-mobile-devices/
+            - generic [ref=f86e138]:
+              - text: Learn more
+              - generic [ref=f86e139]: ": Start sending"
+    - generic [ref=f86e140]:
+      - generic [ref=f86e141]:
+        - generic [ref=f86e142]:
+          - generic [ref=f86e143]:
+            - heading "Got questions?" [level=2] [ref=f86e144]
+            - paragraph [ref=f86e145]: Can’t find what you’re looking for? Our team is on hand 24/7.
+          - link "Contact support" [ref=f86e147] [cursor=pointer]:
+            - /url: https://www.namecheap.com/help-center/live-chat/
+        - generic [ref=f86e152]:
+          - button "What is business email hosting?" [ref=f86e154] [cursor=pointer]
+          - button "How do I create a professional email address with my domain?" [ref=f86e162] [cursor=pointer]
+          - button "What’s the difference between free email and business email?" [ref=f86e170] [cursor=pointer]
+          - button "Can I use my existing domain for email hosting?" [ref=f86e178] [cursor=pointer]
+      - generic [ref=f86e185]:
+        - generic [ref=f86e186]:
+          - img "PrivateEmail" [ref=f86e187]
+          - generic [ref=f86e189]:
+            - paragraph [ref=f86e190]: Support
+            - list [ref=f86e191]:
+              - listitem [ref=f86e192]:
+                - link "Blog" [ref=f86e193] [cursor=pointer]:
+                  - /url: https://www.namecheap.com/blog/
+              - listitem [ref=f86e194]:
+                - link "Privacy Policy" [ref=f86e195] [cursor=pointer]:
+                  - /url: https://www.namecheap.com/legal/general/privacy-policy/
+              - listitem [ref=f86e196]:
+                - link "Terms & Conditions" [ref=f86e197] [cursor=pointer]:
+                  - /url: https://www.namecheap.com/legal/hosting/netos/
+              - listitem [ref=f86e198]:
+                - link "Live Chat support" [ref=f86e199] [cursor=pointer]:
+                  - /url: https://www.namecheap.com/help-center/live-chat/
+              - listitem [ref=f86e200]:
+                - link "Knowledge base" [ref=f86e201] [cursor=pointer]:
+                  - /url: https://www.namecheap.com/support/knowledgebase/category/93/email-service/
+              - listitem [ref=f86e202]:
+                - button "Cookie Preferences" [ref=f86e203] [cursor=pointer]
+        - button "Back to the top" [ref=f86e204] [cursor=pointer]

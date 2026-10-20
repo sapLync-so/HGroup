@@ -1,0 +1,121 @@
+- generic [ref=f37e1]:
+  - generic [ref=f37e4]:
+    - link "Skip to content" [ref=f37e6] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f37e9]:
+      - generic [ref=f37e10]:
+        - generic [ref=f37e11]:
+          - link "Supabase Back to organization home" [ref=f37e12] [cursor=pointer]:
+            - /url: /dashboard/organizations
+            - img "Supabase" [ref=f37e13]
+            - generic [ref=f37e14]: Back to organization home
+          - button "Connect" [disabled] [ref=f37e22]
+        - generic [ref=f37e27]:
+          - button "Feedback" [ref=f37e28] [cursor=pointer]
+          - generic [ref=f37e30]:
+            - button [ref=f37e31] [cursor=pointer]:
+              - paragraph [ref=f37e36]: Search...
+              - generic [ref=f37e38]: Ctrl K
+            - button "Help" [ref=f37e39] [cursor=pointer]
+            - button "Advisor Center" [ref=f37e46] [cursor=pointer]
+            - button "SQL Editor" [ref=f37e51] [cursor=pointer]
+            - button "AI Assistant" [ref=f37e56] [cursor=pointer]
+          - button [ref=f37e64] [cursor=pointer]
+    - generic [ref=f37e69]:
+      - generic [ref=f37e73]:
+        - navigation [ref=f37e75]:
+          - list [ref=f37e77]:
+            - listitem [ref=f37e78]:
+              - link "Project Overview" [ref=f37e79] [cursor=pointer]:
+                - /url: /dashboard/project/qywofwjeuojejatmbonr
+            - listitem [ref=f37e82]:
+              - button "Table Editor" [disabled]
+            - listitem [ref=f37e83]:
+              - button "SQL Editor" [disabled]
+          - list [ref=f37e85]:
+            - listitem [ref=f37e86]:
+              - button "Database" [disabled]
+            - listitem [ref=f37e87]:
+              - button "Authentication" [disabled]
+            - listitem [ref=f37e88]:
+              - button "Storage" [disabled]
+            - listitem [ref=f37e89]:
+              - link "Edge Functions" [ref=f37e90] [cursor=pointer]:
+                - /url: /dashboard/project/qywofwjeuojejatmbonr/functions
+            - listitem [ref=f37e96]:
+              - button "Realtime" [disabled]
+          - list [ref=f37e98]:
+            - listitem [ref=f37e99]:
+              - button "Advisors" [disabled]
+            - listitem [ref=f37e100]:
+              - button "Observability" [disabled]
+            - listitem [ref=f37e101]:
+              - link "Logs" [ref=f37e102] [cursor=pointer]:
+                - /url: /dashboard/project/qywofwjeuojejatmbonr/logs
+            - listitem [ref=f37e104]:
+              - button "Integrations" [disabled]
+          - list [ref=f37e106]:
+            - listitem [ref=f37e107]:
+              - link "Project Settings" [ref=f37e108] [cursor=pointer]:
+                - /url: /dashboard/project/qywofwjeuojejatmbonr/settings/general
+        - button "Sidebar control" [ref=f37e114] [cursor=pointer]
+      - main [ref=f37e121]:
+        - generic [ref=f37e123]:
+          - separator [ref=f37e127]
+          - main [ref=f37e138]:
+            - generic [ref=f37e139]:
+              - generic [ref=f37e140]:
+                - generic [ref=f37e141]:
+                  - button "Collapse sidebar" [ref=f37e142]
+                  - tablist [ref=f37e147]:
+                    - generic [ref=f37e148]:
+                      - generic [ref=f37e150]:
+                        - generic [ref=f37e151]:
+                          - tab "Untitled query" [ref=f37e152] [cursor=pointer]
+                          - button "Close tab" [ref=f37e164] [cursor=pointer]
+                        - separator [ref=f37e168]
+                      - generic [ref=f37e169]:
+                        - tab "New" [selected] [ref=f37e170] [cursor=pointer]
+                        - button "Close new tab" [ref=f37e176] [cursor=pointer]
+                - status [ref=f37e181]
+              - generic [ref=f37e183]:
+                - generic [ref=f37e184]:
+                  - generic [ref=f37e185]:
+                    - generic [ref=f37e186]: Autosave enabled
+                    - button "Disable autosave" [ref=f37e187] [cursor=pointer]
+                  - generic [ref=f37e193]:
+                    - button "Enable Intellisense" [ref=f37e194] [cursor=pointer]
+                    - button "Add to favorites" [ref=f37e198] [cursor=pointer]
+                    - button "Prettify SQL" [ref=f37e202] [cursor=pointer]
+                  - generic [ref=f37e205]:
+                    - generic [ref=f37e206]:
+                      - generic [ref=f37e207] [cursor=pointer]:
+                        - generic [ref=f37e208]: Source
+                        - button "Primary database" [ref=f37e209]
+                      - button "Role postgres" [ref=f37e217] [cursor=pointer]:
+                        - generic [ref=f37e219]:
+                          - generic [ref=f37e220]: Role
+                          - generic [ref=f37e221]: postgres
+                    - button "Limit 100 rows" [ref=f37e224] [cursor=pointer]
+                    - button "Run" [ref=f37e230] [cursor=pointer]:
+                      - generic [ref=f37e233]: Ctrl ↵
+                - generic [ref=f37e234]:
+                  - code [ref=f37e242]:
+                    - generic [ref=f37e243]:
+                      - generic [ref=f37e246]: "1"
+                      - textbox "Editor content" [active] [ref=f37e259]
+                      - generic: Hit CTRL+SHIFT+K to generate query or just start typing
+                  - separator [ref=f37e260]
+                  - generic [ref=f37e271]:
+                    - tablist [ref=f37e272]:
+                      - generic [ref=f37e273]:
+                        - tab "Results" [selected] [ref=f37e274] [cursor=pointer]
+                        - tab "Chart" [ref=f37e276] [cursor=pointer]
+                    - paragraph [ref=f37e279]:
+                      - text: Click
+                      - code [ref=f37e280]: Run
+                      - text: to execute your query
+  - alert [ref=f37e281]: Untitled query | SQL Editor | Supabase
+  - generic [ref=f37e282]:
+    - alert
+    - alert

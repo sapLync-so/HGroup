@@ -1,0 +1,5 @@
+[    6988ms] [LOG] 
+%cWhat are you searching for?
+ font-weight: 800 @ https://resend.com/_next/static/immutable/chunks/1rr0v84jfgkkt.js:3
+[   12459ms] [WARNING] The resource https://resend.com/_next/static/immutable/chunks/1_kt8ian3o8_b.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://resend.com/emails:0
+[   12459ms] [WARNING] The resource https://resend.com/_next/static/immutable/chunks/0fe-r7je7sdf3.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://resend.com/emails:0

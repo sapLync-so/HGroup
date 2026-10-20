@@ -1,0 +1,82 @@
+- generic [active] [ref=f78e1]:
+  - generic [ref=f78e2]:
+    - banner [ref=f78e3]:
+      - generic [ref=f78e4]:
+        - link "H Group Associates & Investors — back to top" [ref=f78e5] [cursor=pointer]:
+          - /url: "#top"
+          - img "H Group Associates & Investors" [ref=f78e6]
+        - link "Request a Tour" [ref=f78e7] [cursor=pointer]:
+          - /url: "#book"
+    - generic [ref=f78e8]:
+      - img "Daylight view of the brick rowhouse facade marked 105, with white window trim and entrance railings." [ref=f78e9]
+      - generic [ref=f78e11]:
+        - paragraph [ref=f78e12]: H GROUP ASSOCIATES & INVESTORS
+        - heading "Find a home that feels right." [level=1] [ref=f78e13]
+        - paragraph [ref=f78e14]: Explore H Group rental homes through authentic photography, detailed property information, and a closer look at each space. When you find the right fit, request a private tour.
+        - generic [ref=f78e15]:
+          - link "Explore Properties" [ref=f78e16] [cursor=pointer]:
+            - /url: "#properties"
+          - link "Request a Tour" [ref=f78e17] [cursor=pointer]:
+            - /url: "#book"
+        - generic [ref=f78e18]:
+          - generic [ref=f78e19]: Featured Property
+          - generic [ref=f78e20]: The Brick Residence
+          - generic [ref=f78e21]: Ask About Availability
+    - main [ref=f78e22]:
+      - generic [ref=f78e24]:
+        - generic [ref=f78e25]:
+          - paragraph [ref=f78e26]: The Properties
+          - heading "Rent a home you’ve actually seen." [level=2] [ref=f78e27]
+          - paragraph [ref=f78e28]: H Group gives prospective residents a clear view of its homes before scheduling a tour — real photographs, room by room, exactly as the property stands.
+        - article [ref=f78e31]:
+          - button "View photos and details for The Brick Residence" [ref=f78e32] [cursor=pointer]:
+            - img "Daylight view of the brick rowhouse facade marked 105, with white window trim and entrance railings." [ref=f78e33]
+            - generic [ref=f78e34]: Featured Property
+          - generic [ref=f78e35]:
+            - generic [ref=f78e36]:
+              - paragraph [ref=f78e37]: HGR-01
+              - heading "The Brick Residence" [level=3] [ref=f78e38]
+              - paragraph [ref=f78e39]: A brick exterior. A yellow door. A place to make your own. Take a closer look at the rooms, white kitchen and marble-pattern bath in our featured H Group residence.
+              - list [ref=f78e40]:
+                - listitem [ref=f78e41]: A distinctive yellow entry
+                - listitem [ref=f78e42]: White kitchen cabinetry
+                - listitem [ref=f78e43]: Wood-look flooring
+            - generic [ref=f78e44]:
+              - button "View this home" [ref=f78e45]
+              - button "Ask about availability" [ref=f78e46]
+      - generic [ref=f78e50]:
+        - heading "Request a tour" [level=2] [ref=f78e51]
+        - paragraph [ref=f78e52]: Tell us which home you're interested in and we'll help arrange a tour.
+        - generic [ref=f78e53]:
+          - generic [ref=f78e54]:
+            - text: Which home?
+            - combobox "Which home?" [ref=f78e55]:
+              - option "General inquiry" [selected]
+              - option "The Brick Residence (HGR-01) — Ask About Availability"
+          - generic [ref=f78e56]:
+            - text: Name
+            - textbox "Name" [ref=f78e57]
+          - generic [ref=f78e58]:
+            - text: Contact
+            - textbox "Contact" [ref=f78e59]
+          - generic [ref=f78e60]:
+            - text: Note
+            - textbox "Note" [ref=f78e61]
+          - button "Request a tour" [ref=f78e62]
+    - contentinfo [ref=f78e63]:
+      - generic [ref=f78e64]:
+        - generic [ref=f78e65]:
+          - link "H Group Associates & Investors — back to top" [ref=f78e66] [cursor=pointer]:
+            - /url: "#top"
+            - img "H Group Associates & Investors" [ref=f78e67]
+          - paragraph [ref=f78e68]: A portfolio of rental homes, shown as they stand. Photographs are of the actual properties; staged previews are always labeled.
+        - list [ref=f78e69]:
+          - listitem [ref=f78e70]:
+            - link "Properties" [ref=f78e71] [cursor=pointer]:
+              - /url: "#properties"
+          - listitem [ref=f78e72]:
+            - link "Request a Tour" [ref=f78e73] [cursor=pointer]:
+              - /url: "#book"
+    - link "Request a Tour" [ref=f78e76] [cursor=pointer]:
+      - /url: "#book"
+  - alert [ref=f78e77]

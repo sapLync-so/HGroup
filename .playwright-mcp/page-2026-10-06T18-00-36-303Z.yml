@@ -1,0 +1,132 @@
+- generic [ref=f70e1]:
+  - generic [ref=f70e2]:
+    - banner [ref=f70e3]:
+      - generic [ref=f70e4]:
+        - link "H Group Associates & Investors — back to top" [ref=f70e5] [cursor=pointer]:
+          - /url: "#top"
+          - img "H Group Associates & Investors" [ref=f70e6]
+        - navigation "Portfolio sections" [ref=f70e7]:
+          - link "Properties" [ref=f70e8] [cursor=pointer]:
+            - /url: "#properties"
+        - link "Request a Tour" [ref=f70e9] [cursor=pointer]:
+          - /url: "#book"
+    - generic [ref=f70e10]:
+      - img "Daylight view of the brick rowhouse facade marked 105, with white window trim and entrance railings." [ref=f70e11]
+      - generic [ref=f70e13]:
+        - paragraph [ref=f70e14]: H GROUP ASSOCIATES & INVESTORS
+        - heading "Find a home that feels right." [level=1] [ref=f70e15]
+        - paragraph [ref=f70e16]: Explore H Group rental homes through authentic photography, detailed property information, and a closer look at each space. When you find the right fit, request a private tour.
+        - generic [ref=f70e17]:
+          - link "Explore Properties" [ref=f70e18] [cursor=pointer]:
+            - /url: "#properties"
+          - link "Request a Tour" [ref=f70e19] [cursor=pointer]:
+            - /url: "#book"
+        - generic [ref=f70e20]:
+          - generic [ref=f70e21]: Featured Property
+          - generic [ref=f70e22]: The Brick Residence
+          - generic [ref=f70e23]: Ask About Availability
+    - main [ref=f70e24]:
+      - generic [ref=f70e26]:
+        - generic [ref=f70e27]:
+          - paragraph [ref=f70e28]: The Properties
+          - heading "Rent a home you’ve actually seen." [level=2] [ref=f70e29]
+          - paragraph [ref=f70e30]: H Group gives prospective residents a clear view of its homes before scheduling a tour — real photographs, room by room, exactly as the property stands.
+        - article [ref=f70e33]:
+          - button "View photos and details for The Brick Residence" [ref=f70e34] [cursor=pointer]:
+            - img "Daylight view of the brick rowhouse facade marked 105, with white window trim and entrance railings." [ref=f70e35]
+            - generic [ref=f70e36]: Featured Property
+          - generic [ref=f70e37]:
+            - generic [ref=f70e38]:
+              - paragraph [ref=f70e39]: HGR-01
+              - heading "The Brick Residence" [level=3] [ref=f70e40]
+              - paragraph [ref=f70e41]: A brick exterior. A yellow door. A place to make your own. Take a closer look at the rooms, white kitchen and marble-pattern bath in our featured H Group residence.
+              - list [ref=f70e42]:
+                - listitem [ref=f70e43]: A distinctive yellow entry
+                - listitem [ref=f70e44]: White kitchen cabinetry
+                - listitem [ref=f70e45]: Wood-look flooring
+            - generic [ref=f70e46]:
+              - button "View this home" [ref=f70e47]
+              - button "Ask about availability" [ref=f70e48]
+      - generic [ref=f70e52]:
+        - heading "Request a tour" [level=2] [ref=f70e53]
+        - paragraph [ref=f70e54]: Tell us which home you're interested in and we'll help arrange a tour.
+        - generic [ref=f70e55]:
+          - generic [ref=f70e56]:
+            - text: Which home?
+            - combobox "Which home?" [ref=f70e57]:
+              - option "General inquiry" [selected]
+              - option "The Brick Residence (HGR-01) — Ask About Availability"
+          - generic [ref=f70e58]:
+            - text: Name
+            - textbox "Name" [ref=f70e59]
+          - generic [ref=f70e60]:
+            - text: Contact
+            - textbox "Contact" [ref=f70e61]
+          - generic [ref=f70e62]:
+            - text: Note
+            - textbox "Note" [ref=f70e63]
+          - button "Request a tour" [ref=f70e64]
+    - contentinfo [ref=f70e65]:
+      - generic [ref=f70e66]:
+        - generic [ref=f70e67]:
+          - link "H Group Associates & Investors — back to top" [ref=f70e68] [cursor=pointer]:
+            - /url: "#top"
+            - img "H Group Associates & Investors" [ref=f70e69]
+          - paragraph [ref=f70e70]: A portfolio of rental homes, shown as they stand. Photographs are of the actual properties; staged previews are always labeled.
+        - list [ref=f70e71]:
+          - listitem [ref=f70e72]:
+            - link "Properties" [ref=f70e73] [cursor=pointer]:
+              - /url: "#properties"
+          - listitem [ref=f70e74]:
+            - link "Request a Tour" [ref=f70e75] [cursor=pointer]:
+              - /url: "#book"
+    - link "Request a Tour" [ref=f70e78] [cursor=pointer]:
+      - /url: "#book"
+    - button "Close property details" [ref=f70e88]
+    - dialog [ref=f70e89]:
+      - generic [ref=f70e90]:
+        - generic [ref=f70e91]:
+          - img "Virtually staged living room. The sofa, table, lamp, and rug are not in the residence." [ref=f70e130]
+          - generic [ref=f70e131]: Living Room — Virtually Staged
+          - button "Close" [ref=f70e93]
+        - generic [ref=f70e94]:
+          - 'button "Show photo 1: Facade in daylight" [ref=f70e95]'
+          - 'button "Show photo 2: Living room" [ref=f70e96]'
+          - 'button "Show photo 3: Living room" [ref=f70e97]'
+          - 'button "Show photo 4: Kitchen" [ref=f70e98]'
+          - 'button "Show photo 5: Bath" [ref=f70e99]'
+          - 'button "Show photo 6: Laundry" [ref=f70e100]'
+          - 'button "Show photo 7: Living Room — Virtually Staged" [active] [ref=f70e101]'
+          - 'button "Show photo 8: Bedroom — Virtually Staged" [ref=f70e102]'
+          - 'button "Show photo 9: Kitchen — Virtually Staged" [ref=f70e103]'
+      - generic [ref=f70e104]:
+        - generic [ref=f70e105]:
+          - paragraph [ref=f70e106]: Featured Property · Ask About Availability
+          - heading "The Brick Residence" [level=3] [ref=f70e107]
+          - paragraph [ref=f70e108]: A brick exterior. A yellow door. A place to make your own. Take a closer look at the rooms, white kitchen and marble-pattern bath in our featured H Group residence.
+        - generic [ref=f70e109]:
+          - heading "Highlights" [level=4] [ref=f70e110]
+          - list [ref=f70e111]:
+            - listitem [ref=f70e112]: A distinctive yellow entry
+            - listitem [ref=f70e113]: White kitchen cabinetry
+            - listitem [ref=f70e114]: Wood-look flooring
+        - generic [ref=f70e115]:
+          - heading "Shown in the photographs" [level=4] [ref=f70e116]
+          - list [ref=f70e117]:
+            - listitem [ref=f70e118]:
+              - generic [aria-hidden] [ref=f70e119]: —
+              - text: Brick exterior
+            - listitem [ref=f70e120]:
+              - generic [aria-hidden] [ref=f70e121]: —
+              - text: Gray interiors
+            - listitem [ref=f70e122]:
+              - generic [aria-hidden] [ref=f70e123]: —
+              - text: Marble-pattern bathroom tile
+            - listitem [ref=f70e124]:
+              - generic [aria-hidden] [ref=f70e125]: —
+              - text: Laundry room shown in gallery
+        - generic [ref=f70e126]:
+          - button "Request a tour of this home" [ref=f70e127]
+          - button "Keep browsing" [ref=f70e128]
+  - button "Open Next.js Dev Tools" [ref=f70e84] [cursor=pointer]
+  - alert [ref=f70e129]

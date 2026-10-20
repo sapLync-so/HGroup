@@ -1,0 +1,249 @@
+- generic [ref=f10e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - generic [ref=f10e5]:
+        - generic [ref=f10e6]:
+          - generic [ref=f10e7]:
+            - generic [ref=f10e10]:
+              - link "sapLync Hobby" [ref=f10e11] [cursor=pointer]:
+                - /url: /saplync
+                - generic [ref=f10e14]:
+                  - generic [ref=f10e15]: sapLync
+                  - generic [ref=f10e16]: Hobby
+              - button [ref=f10e18] [cursor=pointer]
+            - button "Find F" [ref=f10e23]:
+              - generic [ref=f10e25]:
+                - generic [ref=f10e29]: Find
+                - generic [ref=f10e30]: F
+          - navigation [ref=f10e34]:
+            - generic [ref=f10e38]:
+              - link "Overview" [ref=f10e39] [cursor=pointer]:
+                - /url: /saplync/hgroup
+              - link "Deployments" [ref=f10e44] [cursor=pointer]:
+                - /url: /saplync/hgroup/deployments
+              - link "Logs" [ref=f10e50] [cursor=pointer]:
+                - /url: /saplync/hgroup/logs
+              - link "Analytics" [ref=f10e59] [cursor=pointer]:
+                - /url: /saplync/hgroup/analytics
+              - link "Speed Insights" [ref=f10e65] [cursor=pointer]:
+                - /url: /saplync/hgroup/speed-insights
+              - link "Observability" [ref=f10e71] [cursor=pointer]:
+                - /url: /saplync/hgroup/observability
+              - link "Firewall" [ref=f10e80] [cursor=pointer]:
+                - /url: /saplync/hgroup/firewall
+              - link "CDN" [ref=f10e89] [cursor=pointer]:
+                - /url: /saplync/hgroup/cdn
+              - separator [ref=f10e98]
+              - link "Environment Variables" [ref=f10e99] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings/environment-variables
+              - link "Domains" [ref=f10e105] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings/domains
+              - link "Connect" [ref=f10e111] [cursor=pointer]:
+                - /url: /saplync/hgroup/connect
+              - link "Integrations" [ref=f10e120] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings/integrations
+              - link "Storage" [ref=f10e126] [cursor=pointer]:
+                - /url: /saplync/hgroup/stores
+              - link "Flags" [ref=f10e132] [cursor=pointer]:
+                - /url: /saplync/hgroup/flags
+              - link "Agent" [ref=f10e141] [cursor=pointer]:
+                - /url: /saplync/hgroup/agent
+              - link "AI Gateway" [ref=f10e150] [cursor=pointer]:
+                - /url: /saplync/hgroup/ai-gateway
+              - link "Sandboxes" [ref=f10e159] [cursor=pointer]:
+                - /url: /saplync/hgroup/sandboxes
+              - link "Workflows" [ref=f10e168] [cursor=pointer]:
+                - /url: /saplync/hgroup/workflows
+              - link "Images" [ref=f10e174] [cursor=pointer]:
+                - /url: /saplync/hgroup/images
+              - separator [ref=f10e180]
+              - link "Usage" [ref=f10e181] [cursor=pointer]:
+                - /url: /saplync/hgroup/usage
+              - link "Support" [ref=f10e187] [cursor=pointer]:
+                - /url: /saplync/hgroup/support
+              - link "Settings" [ref=f10e193] [cursor=pointer]:
+                - /url: /saplync/hgroup/settings
+          - generic [ref=f10e206]:
+            - button "Avatar for info-87344975 saplync" [ref=f10e207] [cursor=pointer]:
+              - img "Avatar for info-87344975" [ref=f10e208]:
+                - img "Avatar for info-87344975" [ref=f10e209]
+              - generic [ref=f10e210]: saplync
+            - button "7 unseen notifications" [ref=f10e538] [cursor=pointer]
+        - button [ref=f10e221] [cursor=pointer]
+      - generic [ref=f10e225]:
+        - generic [ref=f10e226]:
+          - generic [ref=f10e229]:
+            - link "hgroup" [ref=f10e230] [cursor=pointer]:
+              - /url: /saplync/hgroup
+            - button [ref=f10e234] [cursor=pointer]
+            - link "Back to team view" [ref=f10e240] [cursor=pointer]:
+              - /url: /saplync/~/settings/environment-variables
+          - navigation "Breadcrumb" [ref=f10e244]:
+            - generic [ref=f10e245]: Environment Variables
+          - button "Vercel Agent is available on Pro" [ref=f10e250] [cursor=pointer]:
+            - generic [ref=f10e263]: Agent
+        - generic [ref=f10e271]:
+          - generic [ref=f10e273]:
+            - generic [ref=f10e274]:
+              - heading "Environment Variables" [level=2] [ref=f10e275]
+              - paragraph [ref=f10e276]:
+                - text: Store API keys, tokens, and config securely.
+                - link "Learn more about environment variables" [ref=f10e277] [cursor=pointer]:
+                  - /url: /docs/environment-variables
+                - text: ·
+                - link "Separate Production Secret Values" [ref=f10e280] [cursor=pointer]:
+                  - /url: /saplync/~/settings/security#disjunctive-production-secret-policy
+            - generic [ref=f10e281]:
+              - button "Link Shared Variable" [ref=f10e283] [cursor=pointer]
+              - button "Add Environment Variable" [ref=f10e285] [cursor=pointer]
+          - tablist [ref=f10e287]:
+            - tab "Project" [selected] [ref=f10e288] [cursor=pointer]
+            - tab "Shared" [ref=f10e289] [cursor=pointer]
+          - generic [ref=f10e290]:
+            - searchbox "Search" [ref=f10e293]
+            - combobox "Filter variables by type" [ref=f10e300] [cursor=pointer]:
+              - option "All Types" [selected]
+              - option "Secret"
+              - option "Config"
+            - combobox [ref=f10e302]:
+              - generic [ref=f10e304]:
+                - searchbox [ref=f10e542]: All Environments
+                - button "Open menu" [ref=f10e305] [cursor=pointer]
+            - combobox [ref=f10e309]:
+              - generic [ref=f10e310]:
+                - searchbox "All Editors" [ref=f10e311]
+                - button "Open menu" [ref=f10e312] [cursor=pointer]
+            - generic [ref=f10e315]:
+              - combobox "Filter variables by status" [ref=f10e318] [cursor=pointer]:
+                - option "All Variables" [selected]
+                - option "Needs Attention"
+              - combobox [ref=f10e321] [cursor=pointer]:
+                - option "Sort by" [disabled]
+                - option "Last Updated" [selected]
+                - option "Name"
+                - option "Type"
+          - generic [ref=f10e322]:
+            - generic [ref=f10e326]:
+              - generic [ref=f10e851]:
+                - generic [ref=f10e852]:
+                  - img "Secret environment variable" [ref=f10e855]
+                  - button "RESEND_API_KEY" [ref=f10e864] [cursor=pointer]
+                - generic [ref=f10e869]: Production and Preview
+                - generic [ref=f10e875]:
+                  - generic [ref=f10e878]:
+                    - generic [ref=f10e880] [cursor=pointer]:
+                      - generic [ref=f10e881]: Updated
+                      - generic [ref=f10e882]: 1m ago
+                    - generic [ref=f10e883] [cursor=pointer]
+                  - button "Menu" [ref=f10e888] [cursor=pointer]
+              - generic [ref=f10e896]:
+                - generic [ref=f10e897]:
+                  - img "Config environment variable" [ref=f10e900]
+                  - button "RESEND_FROM_EMAIL" [ref=f10e909] [cursor=pointer]
+                - generic [ref=f10e916]:
+                  - button "Reveal Value" [ref=f10e917] [cursor=pointer]
+                  - generic [ref=f10e921]: •••••••••••••••
+                - generic [ref=f10e922]: Production and Preview
+                - generic [ref=f10e928]:
+                  - generic [ref=f10e931]:
+                    - generic [ref=f10e933] [cursor=pointer]:
+                      - generic [ref=f10e934]: Updated
+                      - generic [ref=f10e935]: 2m ago
+                    - generic [ref=f10e936] [cursor=pointer]
+                  - button "Menu" [ref=f10e941] [cursor=pointer]
+              - generic [ref=f10e425]:
+                - generic [ref=f10e426]:
+                  - generic [ref=f10e427]:
+                    - img "Config environment variable" [ref=f10e430]
+                    - button "SUPABASE_URL" [ref=f10e439] [cursor=pointer]
+                  - generic [ref=f10e446]:
+                    - button "Reveal Value" [ref=f10e447] [cursor=pointer]
+                    - generic [ref=f10e451]: •••••••••••••••
+                  - generic [ref=f10e452]: Production
+                  - generic [ref=f10e458]:
+                    - generic [ref=f10e461]:
+                      - generic [ref=f10e463] [cursor=pointer]:
+                        - generic [ref=f10e464]: Added
+                        - generic [ref=f10e465]: 3h ago
+                      - generic [ref=f10e466] [cursor=pointer]
+                    - button "Menu" [ref=f10e471] [cursor=pointer]
+                - generic [ref=f10e963]:
+                  - generic [ref=f10e964]:
+                    - generic [ref=f10e965]:
+                      - generic [ref=f10e971]:
+                        - generic [ref=f10e972]: Key
+                        - textbox "environment variable key" [ref=f10e974]:
+                          - /placeholder: EXAMPLE_NAME
+                          - text: SUPABASE_URL
+                      - generic [ref=f10e976]:
+                        - generic [ref=f10e977]: Value
+                        - textbox "Value" [ref=f10e1041]:
+                          - /placeholder: https://aBcDe.supabase.co
+                          - text: https://qywofwjeuojejatmbonr.supabase.co
+                      - generic [ref=f10e985]:
+                        - generic [ref=f10e986]: Note (Optional)
+                        - textbox "shared environment variable comment" [ref=f10e988]:
+                          - /placeholder: Where to rotate, or who to contact
+                    - generic [ref=f10e989]:
+                      - radiogroup [ref=f10e990]:
+                        - generic [ref=f10e991]: Type
+                        - list [ref=f10e993]:
+                          - listitem [ref=f10e994] [cursor=pointer]:
+                            - generic [ref=f10e996]:
+                              - generic [ref=f10e997]:
+                                - generic [ref=f10e998]: Secret
+                                - generic [ref=f10e999]: You can’t reveal this value after saving. Use for passwords, API keys, and tokens.
+                              - radio "Secret You can’t reveal this value after saving. Use for passwords, API keys, and tokens." [ref=f10e1001]
+                          - listitem [ref=f10e1003] [cursor=pointer]:
+                            - generic [ref=f10e1005]:
+                              - generic [ref=f10e1006]:
+                                - generic [ref=f10e1007]: Config
+                                - generic [ref=f10e1008]: Readable after saving for members with access. Use for non-sensitive values.
+                              - radio "Config Readable after saving for members with access. Use for non-sensitive values." [checked] [ref=f10e1010]
+                      - generic [ref=f10e1013]:
+                        - generic [ref=f10e1014]: Environments
+                        - generic [ref=f10e1016]:
+                          - button "Production and Preview" [expanded] [ref=f10e1093] [cursor=pointer]
+                          - button "Select a Custom Preview Branch" [ref=f10e1030] [cursor=pointer]
+                  - generic [ref=f10e1032]:
+                    - button "Cancel" [ref=f10e1035] [cursor=pointer]
+                    - button "Save" [ref=f10e1038] [cursor=pointer]
+              - generic [ref=f10e479]:
+                - generic [ref=f10e480]:
+                  - img "Secret environment variable" [ref=f10e483]
+                  - button "SUPABASE_SERVICE_ROLE_KEY" [ref=f10e492] [cursor=pointer]
+                - generic [ref=f10e497]: Production
+                - generic [ref=f10e503]:
+                  - generic [ref=f10e506]:
+                    - generic [ref=f10e508] [cursor=pointer]:
+                      - generic [ref=f10e509]: Added
+                      - generic [ref=f10e510]: 3h ago
+                    - generic [ref=f10e511] [cursor=pointer]
+                  - button "Menu" [ref=f10e516] [cursor=pointer]
+            - generic [ref=f10e525]:
+              - checkbox "Enable access to System Environment Variables" [checked] [ref=f10e528]
+              - generic [ref=f10e532]:
+                - text: Enable access to
+                - link "System Environment Variables" [ref=f10e533] [cursor=pointer]:
+                  - /url: /docs/environment-variables/system-environment-variables
+  - alert [ref=f10e536]
+  - 'alertdialog "success: Updated Environment Variable successfully. A new deployment is needed for changes to take effect." [ref=f10e692]':
+    - generic [ref=f10e693]:
+      - generic [ref=f10e694]:
+        - generic [ref=f10e695]: "success:"
+        - generic [ref=f10e696]: Updated Environment Variable successfully. A new deployment is needed for changes to take effect.
+      - generic [ref=f10e697]:
+        - button "Dismiss" [ref=f10e698] [cursor=pointer]
+        - button "Redeploy" [ref=f10e700] [cursor=pointer]
+  - dialog [ref=f10e1043]:
+    - generic [ref=f10e1044]:
+      - checkbox "Production" [checked] [ref=f10e1048]
+      - button "Production" [ref=f10e1052] [cursor=pointer]
+    - generic [ref=f10e1061]:
+      - checkbox "Preview" [checked] [ref=f10e1065]
+      - button "Preview" [active] [ref=f10e1068] [cursor=pointer]
+    - generic [ref=f10e1077]:
+      - checkbox "Development" [ref=f10e1081]
+      - button "Development" [ref=f10e1084] [cursor=pointer]
